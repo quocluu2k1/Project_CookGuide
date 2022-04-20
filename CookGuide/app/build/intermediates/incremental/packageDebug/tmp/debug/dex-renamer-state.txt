@@ -1,4 +1,0 @@
-#Thu Apr 21 00:16:03 ICT 2022
-base.0=F\:\\Hoc Tap\\Phat trien ung dung Mobile\\CookGuide\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
-renamed.0=classes.dex
-path.0=classes.dex

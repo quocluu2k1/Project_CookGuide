@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">CookGuide</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="description_fragment">Description fragment</string>
+    <string name="material_fragment">Material fragment</string>
+    <string name="implementation_fragment">Implementation fragment</string>
+</resources>

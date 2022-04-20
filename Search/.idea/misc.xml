@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Admin/Desktop/mobile/Project/app/src/main/res/drawable/ps_button.xml" value="0.124" />
+        <entry key="..\:/Users/Admin/Desktop/mobile/Project/app/src/main/res/drawable/rectangle_4.xml" value="0.2265" />
+        <entry key="..\:/Users/Admin/Desktop/mobile/Project/app/src/main/res/drawable/rectangle_5.xml" value="0.124" />
+        <entry key="..\:/Users/Admin/Desktop/mobile/Project/app/src/main/res/drawable/rectangle_6.xml" value="0.2455" />
+        <entry key="..\:/Users/Admin/Desktop/mobile/Project/app/src/main/res/drawable/search.xml" value="0.2265" />
+        <entry key="..\:/Users/Admin/Desktop/mobile/Project/app/src/main/res/layout/activity_main.xml" value="0.4" />
+        <entry key="..\:/Users/Admin/Desktop/mobile/Project/app/src/main/res/layout/searchresult.xml" value="0.22735507246376813" />
+        <entry key="..\:/Users/Admin/Desktop/mobile/Search/app/src/main/res/drawable/buttonfix.xml" value="0.2455" />
+        <entry key="..\:/Users/Admin/Desktop/mobile/Search/app/src/main/res/drawable/frame_512.xml" value="0.2455" />
+        <entry key="..\:/Users/Admin/Desktop/mobile/Search/app/src/main/res/drawable/grey.xml" value="0.2455" />
+        <entry key="..\:/Users/Admin/Desktop/mobile/Search/app/src/main/res/drawable/ic_cmt.xml" value="0.2455" />
+        <entry key="..\:/Users/Admin/Desktop/mobile/Search/app/src/main/res/drawable/rectangle_5.xml" value="0.2455" />
+        <entry key="..\:/Users/Admin/Desktop/mobile/Search/app/src/main/res/drawable/search.xml" value="0.2455" />
+        <entry key="..\:/Users/Admin/Desktop/mobile/Search/app/src/main/res/drawable/send.xml" value="0.2455" />
+        <entry key="..\:/Users/Admin/Desktop/mobile/Search/app/src/main/res/drawable/usprofile.xml" value="0.2455" />
+        <entry key="..\:/Users/Admin/Desktop/mobile/Search/app/src/main/res/drawable/usprofile1.xml" value="0.2455" />
+        <entry key="..\:/Users/Admin/Desktop/mobile/Search/app/src/main/res/layout/activity_main.xml" value="0.22735507246376813" />
+        <entry key="..\:/Users/Admin/Desktop/mobile/Search/app/src/main/res/layout/bookmark.xml" value="0.4" />
+        <entry key="..\:/Users/Admin/Desktop/mobile/Search/app/src/main/res/layout/comment.xml" value="0.264" />
+        <entry key="..\:/Users/Admin/Desktop/mobile/Search/app/src/main/res/layout/historycomment.xml" value="0.22735507246376813" />
+        <entry key="..\:/Users/Admin/Desktop/mobile/Search/app/src/main/res/layout/search.xml" value="0.22735507246376813" />
+        <entry key="..\:/Users/Admin/Desktop/mobile/Search/app/src/main/res/layout/searchresult.xml" value="0.22735507246376813" />
+        <entry key="..\:/Users/Admin/Desktop/mobile/Search/app/src/main/res/layout/testtab.xml" value="0.22735507246376813" />
+        <entry key="..\:/Users/Admin/Desktop/mobile/Search/app/src/main/res/layout/userprofile.xml" value="0.2" />
+        <entry key="..\:/Users/Admin/Desktop/mobile/Search/app/src/main/res/menu/bottom_nav_menu.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Admin/Desktop/mobile/Search/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.2455" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

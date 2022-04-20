@@ -1,0 +1,15 @@
+<resources>
+    <string name="ngvaa">NgVanA</string>
+    <string name="app_name">Search</string>
+    <string name="t_m_m_n_c_c">Tìm các món ăn, nguyên liệu,...</string>
+    <string name="l_ch_s_t_m_">Lịch sử tìm kiếm</string>
+    <string name="m_n_b_n_xem">Món bạn đã xem gần đây</string>
+    <string name="g_i_cu_n_t_">Gỏi cuốn Tây Sơn</string>
+    <string name="kimbap_k_m_">Kimbap kèm sốt</string>
+    <string name="g_i_m_n_m_i">Gợi ý món mới</string>
+    <string name="b_n_th_t_n_">Bún thịt nướng</string>
+    <string name="c_m_g_chi_n">Cơm gà chiên trứng</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+</resources>

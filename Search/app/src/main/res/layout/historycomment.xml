@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/l_ch_s_b_nh"
+        android:layout_width="169dp"
+        android:layout_height="26dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="28dp"
+        android:gravity="top"
+        android:text="Lịch sử bình luận"
+        android:textAppearance="@style/l_ch_s_b_nh" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="80dp"
+        android:fillViewport="false">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="0dp"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="220dp">
+
+                <TextView
+                    android:id="@+id/th_ng_3_202"
+                    android:layout_width="197dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="17dp"
+                    android:layout_marginTop="15dp"
+                    android:gravity="top"
+                    android:text="23 tháng 3 2022"
+                    android:textAppearance="@style/th_ng_3_202" />
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="100dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="25dp"
+                    app:srcCompat="@drawable/mg" />
+
+                <TextView
+                    android:id="@+id/nguy_n_v_n_"
+                    android:layout_width="130dp"
+                    android:layout_height="26dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="80dp"
+                    android:layout_marginTop="-85dp"
+                    android:gravity="top"
+                    android:text="Nguyễn Văn A"
+                    android:textAppearance="@style/nguy_n_v_n_" />
+
+                <TextView
+                    android:id="@+id/gi_tr_c"
+                    android:layout_width="299dp"
+                    android:layout_height="57dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="90dp"
+                    android:layout_marginTop="60dp"
+                    android:gravity="top"
+                    android:text="Bạn đã bình luận về món Tôm nướng sốt Hàn Quốc"
+                    android:textAppearance="@style/b_n_b_nh_lu" />
+
+                <TextView
+                    android:id="@+id/m_n_n_y_ngo"
+                    android:layout_width="317dp"
+                    android:layout_height="39dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="90dp"
+                    android:layout_marginTop="105dp"
+                    android:gravity="top"
+                    android:text="Ôi ,món này ngon quá!"
+                    android:textAppearance="@style/m_n_n_y_ngo" />
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="5dp"
+                    android:layout_height="100dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="399dp"
+                    android:layout_marginTop="19dp"
+                    app:srcCompat="@drawable/g55" />
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="165dp"
+                    android:layout_height="64dp"
+                    android:layout_marginLeft="90dp"
+                    android:layout_marginTop="150dp"
+                    app:srcCompat="@drawable/nh_10" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="220dp">
+
+                <TextView
+                    android:id="@+id/th_ng_3_202"
+                    android:layout_width="197dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="17dp"
+                    android:layout_marginTop="15dp"
+                    android:gravity="top"
+                    android:text="15 tháng 3 2022"
+                    android:textAppearance="@style/th_ng_3_202" />
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="100dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="25dp"
+                    app:srcCompat="@drawable/mg" />
+
+                <TextView
+                    android:id="@+id/nguy_n_v_n_"
+                    android:layout_width="130dp"
+                    android:layout_height="26dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="80dp"
+                    android:layout_marginTop="-85dp"
+                    android:gravity="top"
+                    android:text="Nguyễn Văn A"
+                    android:textAppearance="@style/nguy_n_v_n_" />
+
+                <TextView
+                    android:id="@+id/gi_tr_c"
+                    android:layout_width="299dp"
+                    android:layout_height="57dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="90dp"
+                    android:layout_marginTop="60dp"
+                    android:gravity="top"
+                    android:text="Bạn đã bình luận về món Phở bò"
+                    android:textAppearance="@style/b_n_b_nh_lu" />
+
+                <TextView
+                    android:id="@+id/m_n_n_y_ngo"
+                    android:layout_width="317dp"
+                    android:layout_height="39dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="90dp"
+                    android:layout_marginTop="105dp"
+                    android:gravity="top"
+                    android:text="Công thức nấu chưa ngon."
+                    android:textAppearance="@style/m_n_n_y_ngo" />
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="5dp"
+                    android:layout_height="100dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="399dp"
+                    android:layout_marginTop="19dp"
+                    app:srcCompat="@drawable/g55" />
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="165dp"
+                    android:layout_height="64dp"
+                    android:layout_marginLeft="90dp"
+                    android:layout_marginTop="150dp"
+                    app:srcCompat="@drawable/nh_10" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="220dp">
+
+                <TextView
+                    android:id="@+id/th_ng_3_202"
+                    android:layout_width="197dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="17dp"
+                    android:layout_marginTop="15dp"
+                    android:gravity="top"
+                    android:text="2 tháng 1 2022"
+                    android:textAppearance="@style/th_ng_3_202" />
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="100dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="25dp"
+                    app:srcCompat="@drawable/mg" />
+
+                <TextView
+                    android:id="@+id/nguy_n_v_n_"
+                    android:layout_width="130dp"
+                    android:layout_height="26dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="80dp"
+                    android:layout_marginTop="-85dp"
+                    android:gravity="top"
+                    android:text="Nguyễn Văn A"
+                    android:textAppearance="@style/nguy_n_v_n_" />
+
+                <TextView
+                    android:id="@+id/gi_tr_c"
+                    android:layout_width="299dp"
+                    android:layout_height="57dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="90dp"
+                    android:layout_marginTop="60dp"
+                    android:gravity="top"
+                    android:text="Bạn đã bình luận về món Cơm gà"
+                    android:textAppearance="@style/b_n_b_nh_lu" />
+
+                <TextView
+                    android:id="@+id/m_n_n_y_ngo"
+                    android:layout_width="301dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="91dp"
+                    android:layout_marginTop="105dp"
+                    android:gravity="top"
+                    android:text="Nếu cho thêm 10ml nước sốt nữa sẽ ngon hơn"
+                    android:textAppearance="@style/m_n_n_y_ngo" />
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="5dp"
+                    android:layout_height="100dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="399dp"
+                    android:layout_marginTop="19dp"
+                    app:srcCompat="@drawable/g55" />
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="165dp"
+                    android:layout_height="64dp"
+                    android:layout_marginLeft="90dp"
+                    android:layout_marginTop="150dp"
+                    app:srcCompat="@drawable/nh_10" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/nav_view"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="580dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="0dp"
+        android:background="?android:attr/windowBackground"
+        app:menu="@menu/bottom_nav_menu" />
+</RelativeLayout>

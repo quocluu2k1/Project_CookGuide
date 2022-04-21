@@ -1,0 +1,608 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp">
+
+    <View
+        android:id="@+id/rectangle_4"
+        android:layout_width="330dp"
+        android:layout_height="54dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="23dp"
+        android:background="@drawable/rectangle_4" />
+
+    <RelativeLayout
+        android:id="@+id/search"
+        android:layout_width="33dp"
+        android:layout_height="33dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="31dp"
+        android:layout_marginTop="34dp"
+        android:background="@drawable/search"
+        android:clipToOutline="true" />
+
+    <androidx.appcompat.widget.SearchView
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="23dp" />
+
+    <TextView
+        android:id="@+id/t_m_m_n_c_c"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="65dp"
+        android:layout_marginTop="35dp"
+        android:gravity="top"
+        android:text="Cơm"
+        android:textAppearance="@style/com" />
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="676dp"
+        android:layout_marginTop="80dp"
+        android:fillViewport="false">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1000dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="0dp"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:id="@+id/frame_512"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="0dp"
+                android:background="@drawable/frame_512"
+                android:clipToOutline="true">
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="142dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginTop="3dp"
+                    app:srcCompat="@drawable/nh_12" />
+
+                <TextView
+                    android:id="@+id/c_m_g_chi_n"
+                    android:layout_width="213dp"
+                    android:layout_height="23dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="157dp"
+                    android:layout_marginTop="7dp"
+                    android:gravity="top"
+                    android:text="Cơm gà chiên trứng"
+                    android:textAppearance="@style/c_m_g_chi_n" />
+
+                <TextView
+                    android:id="@+id/ph_t"
+                    android:layout_width="101dp"
+                    android:layout_height="23dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="174dp"
+                    android:layout_marginTop="98dp"
+                    android:gravity="top"
+                    android:text="20 phút"
+                    android:textAppearance="@style/c_m_g_chi_n" />
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="42dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="152dp"
+                    android:layout_marginTop="90dp"
+                    app:srcCompat="@drawable/time" />
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="42dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="245dp"
+                    android:layout_marginTop="90dp"
+                    app:srcCompat="@drawable/activity" />
+
+                <TextView
+                    android:id="@+id/ph_t"
+                    android:layout_width="101dp"
+                    android:layout_height="23dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="265dp"
+                    android:layout_marginTop="98dp"
+                    android:gravity="top"
+                    android:text="Dễ"
+                    android:textAppearance="@style/c_m_g_chi_n" />
+
+                <TextView
+                    android:id="@+id/ng_li_u_ch_"
+                    android:layout_width="214dp"
+                    android:layout_height="57dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="158dp"
+                    android:layout_marginTop="32dp"
+                    android:gravity="top"
+                    android:text="Ng.liệu chính: cơm, thịt gà, trứng"
+                    android:textAppearance="@style/c_m_g_chi_n" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/frame_514"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="0dp"
+                android:background="@drawable/frame_512"
+                android:clipToOutline="true">
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="142dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginTop="3dp"
+                    app:srcCompat="@drawable/nh_13" />
+
+                <TextView
+                    android:id="@+id/c_m_g_chi_n"
+                    android:layout_width="213dp"
+                    android:layout_height="23dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="157dp"
+                    android:layout_marginTop="7dp"
+                    android:gravity="top"
+                    android:text="Cơm chiên dương châu"
+                    android:textAppearance="@style/c_m_g_chi_n" />
+
+                <TextView
+                    android:id="@+id/ph_t"
+                    android:layout_width="101dp"
+                    android:layout_height="23dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="174dp"
+                    android:layout_marginTop="98dp"
+                    android:gravity="top"
+                    android:text="30 phút"
+                    android:textAppearance="@style/c_m_g_chi_n" />
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="42dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="152dp"
+                    android:layout_marginTop="90dp"
+                    app:srcCompat="@drawable/time" />
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="42dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="245dp"
+                    android:layout_marginTop="90dp"
+                    app:srcCompat="@drawable/activity" />
+
+                <TextView
+                    android:id="@+id/ph_t"
+                    android:layout_width="101dp"
+                    android:layout_height="23dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="265dp"
+                    android:layout_marginTop="98dp"
+                    android:gravity="top"
+                    android:text="Khó"
+                    android:textAppearance="@style/c_m_g_chi_n" />
+
+                <TextView
+                    android:id="@+id/ng_li_u_ch_"
+                    android:layout_width="214dp"
+                    android:layout_height="57dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="158dp"
+                    android:layout_marginTop="32dp"
+                    android:gravity="top"
+                    android:text="Ng.liệu chính: cơm, thịt bò"
+                    android:textAppearance="@style/c_m_g_chi_n" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/frame_515"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="0dp"
+                android:background="@drawable/frame_512"
+                android:clipToOutline="true">
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="142dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginTop="3dp"
+                    app:srcCompat="@drawable/nh_14" />
+
+                <TextView
+                    android:id="@+id/c_m_g_chi_n"
+                    android:layout_width="213dp"
+                    android:layout_height="23dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="157dp"
+                    android:layout_marginTop="7dp"
+                    android:gravity="top"
+                    android:text="Cơm cuộn xúc xích"
+                    android:textAppearance="@style/c_m_g_chi_n" />
+
+                <TextView
+                    android:id="@+id/ph_t"
+                    android:layout_width="101dp"
+                    android:layout_height="23dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="174dp"
+                    android:layout_marginTop="98dp"
+                    android:gravity="top"
+                    android:text="40 phút"
+                    android:textAppearance="@style/c_m_g_chi_n" />
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="42dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="152dp"
+                    android:layout_marginTop="90dp"
+                    app:srcCompat="@drawable/time" />
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="42dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="245dp"
+                    android:layout_marginTop="90dp"
+                    app:srcCompat="@drawable/activity" />
+
+                <TextView
+                    android:id="@+id/ph_t"
+                    android:layout_width="101dp"
+                    android:layout_height="23dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="265dp"
+                    android:layout_marginTop="98dp"
+                    android:gravity="top"
+                    android:text="Dể"
+                    android:textAppearance="@style/c_m_g_chi_n" />
+
+                <TextView
+                    android:id="@+id/ng_li_u_ch_"
+                    android:layout_width="214dp"
+                    android:layout_height="57dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="158dp"
+                    android:layout_marginTop="32dp"
+                    android:gravity="top"
+                    android:text="Ng.liệu chính: cơm, xúc xích"
+                    android:textAppearance="@style/c_m_g_chi_n" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/frame_516"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="0dp"
+                android:background="@drawable/frame_512"
+                android:clipToOutline="true">
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="142dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginTop="3dp"
+                    app:srcCompat="@drawable/nh_15" />
+
+                <TextView
+                    android:id="@+id/c_m_g_chi_n"
+                    android:layout_width="213dp"
+                    android:layout_height="23dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="157dp"
+                    android:layout_marginTop="7dp"
+                    android:gravity="top"
+                    android:text="Sushi"
+                    android:textAppearance="@style/c_m_g_chi_n" />
+
+                <TextView
+                    android:id="@+id/ph_t"
+                    android:layout_width="101dp"
+                    android:layout_height="23dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="174dp"
+                    android:layout_marginTop="98dp"
+                    android:gravity="top"
+                    android:text="30 phút"
+                    android:textAppearance="@style/c_m_g_chi_n" />
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="42dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="152dp"
+                    android:layout_marginTop="90dp"
+                    app:srcCompat="@drawable/time" />
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="42dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="245dp"
+                    android:layout_marginTop="90dp"
+                    app:srcCompat="@drawable/activity" />
+
+                <TextView
+                    android:id="@+id/ph_t"
+                    android:layout_width="84dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="265dp"
+                    android:layout_marginTop="98dp"
+                    android:gravity="top"
+                    android:text="Trung bình"
+                    android:textAppearance="@style/c_m_g_chi_n" />
+
+                <TextView
+                    android:id="@+id/ng_li_u_ch_"
+                    android:layout_width="214dp"
+                    android:layout_height="57dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="158dp"
+                    android:layout_marginTop="32dp"
+                    android:gravity="top"
+                    android:text="Ng.liệu chính: cơm, tôm, carrot"
+                    android:textAppearance="@style/c_m_g_chi_n" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/frame_516"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="0dp"
+                android:background="@drawable/frame_512"
+                android:clipToOutline="true">
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="142dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginTop="3dp"
+                    app:srcCompat="@drawable/nh_15" />
+
+                <TextView
+                    android:id="@+id/c_m_g_chi_n"
+                    android:layout_width="213dp"
+                    android:layout_height="23dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="157dp"
+                    android:layout_marginTop="7dp"
+                    android:gravity="top"
+                    android:text="Sushi"
+                    android:textAppearance="@style/c_m_g_chi_n" />
+
+                <TextView
+                    android:id="@+id/ph_t"
+                    android:layout_width="101dp"
+                    android:layout_height="23dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="174dp"
+                    android:layout_marginTop="98dp"
+                    android:gravity="top"
+                    android:text="30 phút"
+                    android:textAppearance="@style/c_m_g_chi_n" />
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="42dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="152dp"
+                    android:layout_marginTop="90dp"
+                    app:srcCompat="@drawable/time" />
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="42dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="245dp"
+                    android:layout_marginTop="90dp"
+                    app:srcCompat="@drawable/activity" />
+
+                <TextView
+                    android:id="@+id/ph_t"
+                    android:layout_width="84dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="265dp"
+                    android:layout_marginTop="98dp"
+                    android:gravity="top"
+                    android:text="Trung bình"
+                    android:textAppearance="@style/c_m_g_chi_n" />
+
+                <TextView
+                    android:id="@+id/ng_li_u_ch_"
+                    android:layout_width="214dp"
+                    android:layout_height="57dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="158dp"
+                    android:layout_marginTop="32dp"
+                    android:gravity="top"
+                    android:text="Ng.liệu chính: cơm, tôm, carrot"
+                    android:textAppearance="@style/c_m_g_chi_n" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/frame_516"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="0dp"
+                android:background="@drawable/frame_512"
+                android:clipToOutline="true">
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="142dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginTop="3dp"
+                    app:srcCompat="@drawable/nh_15" />
+
+                <TextView
+                    android:id="@+id/c_m_g_chi_n"
+                    android:layout_width="213dp"
+                    android:layout_height="23dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="157dp"
+                    android:layout_marginTop="7dp"
+                    android:gravity="top"
+                    android:text="Sushi"
+                    android:textAppearance="@style/c_m_g_chi_n" />
+
+                <TextView
+                    android:id="@+id/ph_t"
+                    android:layout_width="101dp"
+                    android:layout_height="23dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="174dp"
+                    android:layout_marginTop="98dp"
+                    android:gravity="top"
+                    android:text="30 phút"
+                    android:textAppearance="@style/c_m_g_chi_n" />
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="42dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="152dp"
+                    android:layout_marginTop="90dp"
+                    app:srcCompat="@drawable/time" />
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="42dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="245dp"
+                    android:layout_marginTop="90dp"
+                    app:srcCompat="@drawable/activity" />
+
+                <TextView
+                    android:id="@+id/ph_t"
+                    android:layout_width="84dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="265dp"
+                    android:layout_marginTop="98dp"
+                    android:gravity="top"
+                    android:text="Trung bình"
+                    android:textAppearance="@style/c_m_g_chi_n" />
+
+                <TextView
+                    android:id="@+id/ng_li_u_ch_"
+                    android:layout_width="214dp"
+                    android:layout_height="57dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="158dp"
+                    android:layout_marginTop="32dp"
+                    android:gravity="top"
+                    android:text="Ng.liệu chính: cơm, tôm, carrot"
+                    android:textAppearance="@style/c_m_g_chi_n" />
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/nav_view"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="580dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="0dp"
+        android:background="?android:attr/windowBackground"
+        app:menu="@menu/bottom_nav_menu" />
+</RelativeLayout>

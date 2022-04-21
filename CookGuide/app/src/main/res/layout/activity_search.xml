@@ -1,0 +1,486 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp">
+
+    <View
+        android:id="@+id/rectangle_4"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="23dp"
+        android:background="@drawable/rectangle_4" />
+
+    <RelativeLayout
+        android:id="@+id/search"
+        android:layout_width="33dp"
+        android:layout_height="33dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="31dp"
+        android:layout_marginTop="34dp"
+        android:background="@drawable/search"
+        android:clipToOutline="true" />
+
+    <androidx.appcompat.widget.SearchView
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="23dp" />
+
+    <TextView
+        android:id="@+id/t_m_m_n_c_c"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="36dp"
+        android:gravity="top"
+        android:text="@string/t_m_m_n_c_c"
+        android:textAppearance="@style/t_m_m_n_c_c" />
+
+    <TextView
+        android:id="@+id/l_ch_s_t_m_"
+        android:layout_width="209dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="88dp"
+        android:gravity="top"
+        android:text="@string/l_ch_s_t_m_"
+        android:textAppearance="@style/l_ch_s_t_m_" />
+
+    <TextView
+        android:id="@+id/m_n_b_n_xem"
+        android:layout_width="250dp"
+        android:layout_height="23dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="127dp"
+        android:gravity="top"
+        android:text="@string/m_n_b_n_xem"
+        android:textAppearance="@style/m_n_b_n_xem" />
+
+    <ImageButton
+        android:id="@+id/imagebutton"
+        android:layout_width="20dp"
+        android:layout_height="25dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="276dp"
+        android:layout_marginTop="130dp"
+        android:adjustViewBounds="true"
+        android:background="@drawable/ps_button"
+        android:scaleType="fitCenter"
+        android:src="@drawable/right_arrow" />
+
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="295dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="6dp"
+        android:fillViewport="false">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="158dp"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:layout_width="115dp"
+                android:layout_height="134dp">
+
+                <View
+                    android:id="@+id/rectangle_5"
+                    android:layout_width="115dp"
+                    android:layout_height="134dp"
+                    android:layout_alignParentLeft="false"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="0dp"
+                    android:background="@drawable/rectangle_1" />
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginRight="2dp"
+                    app:srcCompat="@drawable/food" />
+
+                <TextView
+                    android:id="@+id/g_i_cu_n_t_"
+                    android:layout_width="116dp"
+                    android:layout_height="23dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginTop="91dp"
+                    android:gravity="top"
+                    android:text="@string/g_i_cu_n_t_"
+                    android:textAppearance="@style/g_i_cu_n_t_" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="115dp"
+                android:layout_height="134dp"
+                android:layout_marginLeft="26dp">
+
+                <View
+                    android:id="@+id/rectangle_6"
+                    android:layout_width="115dp"
+                    android:layout_height="134dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginTop="0dp"
+                    android:background="@drawable/rectangle_1" />
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginRight="2dp"
+                    app:srcCompat="@drawable/food5" />
+
+                <TextView
+                    android:id="@+id/kimbap_k_m_"
+                    android:layout_width="98dp"
+                    android:layout_height="24dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginTop="91dp"
+                    android:gravity="top"
+                    android:text="@string/kimbap_k_m_"
+                    android:textAppearance="@style/kimbap_k_m_" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="115dp"
+                android:layout_height="134dp"
+                android:layout_marginLeft="34dp">
+
+                <View
+                    android:id="@+id/rectangle_7"
+                    android:layout_width="115dp"
+                    android:layout_height="134dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginTop="0dp"
+                    android:background="@drawable/rectangle_1" />
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginRight="2dp"
+                    app:srcCompat="@drawable/food3" />
+
+                <TextView
+                    android:id="@+id/b_n_th_t_n_"
+                    android:layout_width="91dp"
+                    android:layout_height="28dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginTop="91dp"
+                    android:gravity="top"
+                    android:text="@string/b_n_th_t_n_"
+                    android:textAppearance="@style/b_n_th_t_n_" />
+            </RelativeLayout>
+
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <TextView
+        android:id="@+id/g_i_m_n_m_i"
+        android:layout_width="257dp"
+        android:layout_height="52dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="304dp"
+        android:gravity="top"
+        android:text="@string/g_i_m_n_m_i"
+        android:textAppearance="@style/g_i_m_n_m_i" />
+
+    <LinearLayout
+        android:layout_width="143dp"
+        android:layout_height="178dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="187dp"
+        android:layout_marginTop="325dp"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="114dp"
+            android:layout_height="53dp"
+            android:layout_marginLeft="10dp">
+
+            <View
+                android:id="@+id/rectangle_6"
+                android:layout_width="119dp"
+                android:layout_height="82dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="-3dp"
+                android:background="@drawable/rectangle_6" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="113dp"
+                android:layout_height="74dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="3dp"
+                app:srcCompat="@drawable/food4" />
+
+            <TextView
+                android:id="@+id/kimbap_k_m_"
+                android:layout_width="101dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="7dp"
+                android:layout_marginTop="27dp"
+                android:gravity="top"
+                android:text="@string/kimbap_k_m_"
+                android:textAppearance="@style/kimbap_k_m_" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="114dp"
+            android:layout_height="53dp"
+            android:layout_marginLeft="10dp">
+
+            <View
+                android:id="@+id/rectangle_6"
+                android:layout_width="119dp"
+                android:layout_height="82dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="-3dp"
+                android:background="@drawable/rectangle_6" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="113dp"
+                android:layout_height="74dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="3dp"
+                app:srcCompat="@drawable/food4" />
+
+            <TextView
+                android:id="@+id/kimbap_k_m_"
+                android:layout_width="101dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="9dp"
+                android:layout_marginTop="26dp"
+                android:gravity="top"
+                android:text="Phở"
+                android:textAppearance="@style/kimbap_k_m_" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="114dp"
+            android:layout_height="53dp"
+            android:layout_marginLeft="10dp">
+
+            <View
+                android:id="@+id/rectangle_6"
+                android:layout_width="119dp"
+                android:layout_height="82dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="-3dp"
+                android:background="@drawable/rectangle_6" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="113dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="3dp"
+                app:srcCompat="@drawable/food4" />
+
+            <TextView
+                android:id="@+id/kimbap_k_m_"
+                android:layout_width="101dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="7dp"
+                android:layout_marginTop="23dp"
+                android:gravity="top"
+                android:text="Canh Chua"
+                android:textAppearance="@style/kimbap_k_m_" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="149dp"
+        android:layout_height="193dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="325dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="144dp"
+            android:layout_height="178dp"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="114dp"
+                android:layout_height="53dp"
+                android:layout_marginLeft="10dp">
+
+                <View
+                    android:id="@+id/rectangle_6"
+                    android:layout_width="119dp"
+                    android:layout_height="82dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginTop="-3dp"
+                    android:background="@drawable/rectangle_6" />
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="113dp"
+                    android:layout_height="74dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="3dp"
+                    app:srcCompat="@drawable/food4" />
+
+                <TextView
+                    android:id="@+id/kimbap_k_m_"
+                    android:layout_width="101dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="7dp"
+                    android:layout_marginTop="27dp"
+                    android:gravity="top"
+                    android:text="@string/kimbap_k_m_"
+                    android:textAppearance="@style/kimbap_k_m_" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="114dp"
+                android:layout_height="53dp"
+                android:layout_marginLeft="10dp">
+
+                <View
+                    android:id="@+id/rectangle_6"
+                    android:layout_width="119dp"
+                    android:layout_height="82dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginTop="-3dp"
+                    android:background="@drawable/rectangle_6" />
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="113dp"
+                    android:layout_height="74dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="3dp"
+                    app:srcCompat="@drawable/food4" />
+
+                <TextView
+                    android:id="@+id/kimbap_k_m_"
+                    android:layout_width="101dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="9dp"
+                    android:layout_marginTop="26dp"
+                    android:gravity="top"
+                    android:text="Phở"
+                    android:textAppearance="@style/kimbap_k_m_" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="114dp"
+                android:layout_height="53dp"
+                android:layout_marginLeft="10dp">
+
+                <View
+                    android:id="@+id/rectangle_6"
+                    android:layout_width="119dp"
+                    android:layout_height="82dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginTop="-3dp"
+                    android:background="@drawable/rectangle_6" />
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="113dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="3dp"
+                    app:srcCompat="@drawable/food4" />
+
+                <TextView
+                    android:id="@+id/kimbap_k_m_"
+                    android:layout_width="101dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="7dp"
+                    android:layout_marginTop="23dp"
+                    android:gravity="top"
+                    android:text="Canh Chua"
+                    android:textAppearance="@style/kimbap_k_m_" />
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".DescriptionFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="165dp"
+            android:layout_marginLeft="13dp"
+            android:layout_marginRight="13dp"
+            android:layout_marginTop="5dp"
+            android:scrollbars="vertical"
+            android:fillViewport="true">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Tôm nướng luôn là món ăn được yêu thích của rất nhiều người , nhất là những ai đam mê món nướng. Tôm nướng sốt Hàn Quốc sẽ là một món ăn lạ vị cho mọi người, bằng việc kết hợp tương ớt Hàn Quốc với các loại gia vị, bạn sẽ có được món ăn thơm ngon và rất bắt vị. Cùng thử nhé!"
+                android:textSize="18sp"></TextView>
+        </ScrollView>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:layout_marginLeft="16dp"
+            android:orientation="horizontal">
+<!--            <com.vanniktech.emoji.EmojiButton-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:imeOptions="actionSearch"-->
+<!--                app:emojiSize="34dp"-->
+<!--                android:text="Force Emojis only 🌱🔥"></com.vanniktech.emoji.EmojiButton>-->
+            <Button
+                android:id="@+id/buttonReactFace"
+                android:layout_width="48dp"
+                android:layout_height="24dp"
+                android:background="@drawable/custom_button_reaction"
+                android:paddingLeft="4dp"
+                android:paddingRight="6dp"
+                android:text="&#128523; 2"
+                android:textColor="@color/white">
+
+            </Button>
+            <Button
+                android:id="@+id/buttonReactHeart"
+                android:layout_width="48dp"
+                android:layout_height="24dp"
+                android:background="@drawable/custom_button_reaction"
+                android:layout_marginLeft="8dp"
+                android:paddingLeft="4dp"
+                android:paddingRight="6dp"
+                android:text="&#10084; 7"
+                android:textColor="@color/white">
+
+            </Button>
+            <Button
+                android:id="@+id/buttonReactClap"
+                android:layout_width="48dp"
+                android:layout_height="24dp"
+                android:background="@drawable/custom_button_reaction"
+                android:layout_marginLeft="8dp"
+                android:paddingLeft="4dp"
+                android:paddingRight="6dp"
+                android:text="&#128079; 5"
+                android:textColor="@color/white">
+
+            </Button>
+
+        </LinearLayout>
+        <Button
+            android:layout_width="210dp"
+            android:layout_height="36dp"
+            android:text="Bình luận"
+            android:textAllCaps="false"
+            android:padding="0dp"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:layout_gravity="center"
+            android:layout_marginTop="7dp"
+            android:background="@drawable/custom_shape_button_comment">
+        </Button>
+
+
+    </LinearLayout>
+<!--    <ImageView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:src="@drawable/ic_baseline_send_24"></ImageView>-->
+
+</FrameLayout>

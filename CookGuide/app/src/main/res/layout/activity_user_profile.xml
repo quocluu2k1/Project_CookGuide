@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/frame_461"
+        android:layout_width="match_parent"
+        android:layout_height="103dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="0dp"
+        android:background="@drawable/allbackground"
+        android:clipToOutline="true">
+
+        <FrameLayout
+            android:layout_width="70dp"
+            android:layout_height="47dp"
+            android:layout_marginLeft="260dp"
+            android:layout_marginTop="13dp"
+            android:background="@drawable/logoutbackground">
+
+            <Button
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:layout_marginLeft="21dp"
+                android:layout_marginTop="2dp"
+                android:background="@drawable/ic_log_out"
+                android:textAppearance="@style/ng_xu_t"></Button>
+
+            <TextView
+                android:id="@+id/ng_xu_t"
+                android:layout_width="58dp"
+                android:layout_height="14dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="9dp"
+                android:layout_marginTop="31dp"
+                android:gravity="top"
+                android:text="Đăng Xuất"
+                android:textAppearance="@style/ng_xu_t" />
+
+        </FrameLayout>
+
+        <ImageButton
+            android:id="@+id/imageButton"
+            android:layout_width="110dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="15dp"
+            app:srcCompat="@drawable/mg" />
+
+        <TextView
+            android:id="@+id/nguy_n_v_n_"
+            android:layout_width="137dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="23dp"
+            android:gravity="top"
+            android:text="Nguyễn Văn A"
+            android:textAppearance="@style/nguy_n_v_n_" />
+
+        <TextView
+            android:id="@+id/ngvaa"
+            android:layout_width="97dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="132dp"
+            android:layout_marginTop="57dp"
+            android:gravity="center_horizontal|top"
+            android:lineSpacingExtra="4sp"
+            android:text="@string/ngvaa"
+            android:textAppearance="@style/nguy_n_van_"
+            android:translationY="-2.25sp" />
+
+    </RelativeLayout>
+
+    <com.google.android.material.tabs.TabLayout
+        android:layout_width="387dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="122dp"
+        android:paddingTop="0dp"
+        app:tabContentStart="0dp"
+        app:tabIndicatorColor="#2196F3"
+        app:tabMode="fixed"
+        app:tabPaddingStart="12dp"
+        app:tabPaddingTop="0dp"
+        app:tabSelectedTextColor="@color/black"
+        app:tabTextAppearance="@style/h_s_"
+        app:tabTextColor="#AAB2C8"
+        app:tabUnboundedRipple="false"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="103dp">
+
+        <com.google.android.material.tabs.TabItem
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hồ sơ" />
+
+        <com.google.android.material.tabs.TabItem
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Món đã lưu" />
+    </com.google.android.material.tabs.TabLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="170dp"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/fix"
+            android:layout_width="260dp"
+            android:layout_height="57dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/usprofile">
+
+            <TextView
+                android:id="@+id/h_t_n"
+                android:layout_width="248dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="17dp"
+                android:layout_marginTop="3dp"
+                android:gravity="top"
+                android:text="Tên tài khoản"
+                android:textAppearance="@style/h_t_n" />
+
+            <TextView
+                android:id="@+id/nguy_n_v_n_"
+                android:layout_width="248dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="17dp"
+                android:layout_marginTop="25dp"
+                android:gravity="top"
+                android:text="NgVanA"
+                android:textAppearance="@style/nguyen" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/fix"
+            android:layout_width="318dp"
+            android:layout_height="57dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/usprofile">
+
+
+            <FrameLayout
+                android:layout_width="57dp"
+                android:layout_height="57dp"
+                android:layout_marginLeft="260dp"
+                android:background="@drawable/buttonfix">
+
+                <Button
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_marginLeft="11dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/pen"></Button>
+
+            </FrameLayout>
+
+            <TextView
+                android:id="@+id/h_t_n"
+                android:layout_width="246dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="17dp"
+                android:layout_marginTop="3dp"
+                android:gravity="top"
+                android:text="Họ Tên"
+                android:textAppearance="@style/h_t_n" />
+
+            <TextView
+                android:id="@+id/nguy_n_v_n_"
+                android:layout_width="291dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="17dp"
+                android:layout_marginTop="25dp"
+                android:gravity="top"
+                android:text="Nguyễn Văn A"
+                android:textAppearance="@style/nguyen" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/fix"
+            android:layout_width="318dp"
+            android:layout_height="57dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/usprofile">
+
+            <FrameLayout
+                android:layout_width="57dp"
+                android:layout_height="57dp"
+                android:layout_marginLeft="260dp"
+                android:background="@drawable/buttonfix">
+
+                <Button
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_marginLeft="11dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/pen"></Button>
+
+            </FrameLayout>
+
+            <TextView
+                android:id="@+id/h_t_n"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="17dp"
+                android:layout_marginTop="3dp"
+                android:gravity="top"
+                android:text="Email"
+                android:textAppearance="@style/h_t_n" />
+
+            <TextView
+                android:id="@+id/nguy_n_v_n_"
+                android:layout_width="291dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="17dp"
+                android:layout_marginTop="25dp"
+                android:gravity="top"
+                android:text="NgVaA123@gmail.com"
+                android:textAppearance="@style/nguyen" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/fix"
+            android:layout_width="318dp"
+            android:layout_height="57dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/usprofile">
+
+            <FrameLayout
+                android:layout_width="57dp"
+                android:layout_height="57dp"
+                android:layout_marginLeft="260dp"
+                android:background="@drawable/buttonfix">
+
+                <Button
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_marginLeft="11dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/pen"></Button>
+
+            </FrameLayout>
+
+            <TextView
+                android:id="@+id/h_t_n"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="17dp"
+                android:layout_marginTop="3dp"
+                android:gravity="top"
+                android:text="Số điện thoại"
+                android:textAppearance="@style/h_t_n" />
+
+            <TextView
+                android:id="@+id/nguy_n_v_n_"
+                android:layout_width="291dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="17dp"
+                android:layout_marginTop="25dp"
+                android:gravity="top"
+                android:text="*******123"
+                android:textAppearance="@style/nguyen" />
+
+        </RelativeLayout>
+
+        <Button
+            android:layout_width="218dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="63dp"
+            android:background="@drawable/buttonsignin"
+            android:textAppearance="@style/i_m_t_kh_u"
+            tools:text="Đổi Mật Khẩu"></Button>
+
+    </LinearLayout>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/nav_view"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="580dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="0dp"
+        android:background="?android:attr/windowBackground"
+        app:menu="@menu/bottom_nav_menu" />
+
+</RelativeLayout>

@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    xmlns:app="http://schemas.android.com/apk/res-auto"-->
+<!--    xmlns:tools="http://schemas.android.com/tools"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent"-->
+<!--    tools:context=".MainActivity">-->
+
+<!--    <ProgressBar-->
+<!--        android:id="@+id/progressBar"-->
+<!--        style="?android:attr/progressBarStyleHorizontal"-->
+<!--        android:layout_width="200dp"-->
+<!--        android:layout_height="200dp"-->
+<!--        android:background="@drawable/circle_shape"-->
+<!--        android:indeterminate="false"-->
+<!--        android:max="100"-->
+<!--        android:progress="100"-->
+<!--        android:progressDrawable="@drawable/circular_progress_bar"/>-->
+<!--&lt;!&ndash;        tools:ignore="MissingConstraints"&ndash;&gt;-->
+<!--&lt;!&ndash;        tools:layout_editor_absoluteX="105dp"&ndash;&gt;-->
+<!--&lt;!&ndash;        tools:layout_editor_absoluteY="106dp" />&ndash;&gt;-->
+
+<!--    <Button-->
+<!--        android:id="@+id/button"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="52dp"-->
+<!--        android:text="Load"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/progressBar"/>-->
+<!--&lt;!&ndash;        tools:ignore="MissingConstraints"&ndash;&gt;-->
+<!--&lt;!&ndash;        tools:layout_editor_absoluteX="161dp" />&ndash;&gt;-->
+
+<!--    <com.google.android.material.tabs.TabLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent">-->
+
+<!--        <com.google.android.material.tabs.TabItem-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Monday" />-->
+
+<!--        <com.google.android.material.tabs.TabItem-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Tuesday" />-->
+
+<!--        <com.google.android.material.tabs.TabItem-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Wednesday" />-->
+<!--    </com.google.android.material.tabs.TabLayout>-->
+
+
+<!--</LinearLayout>-->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".MainActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="190dp"
+        android:background="#EC1313">
+
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/viewpager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </androidx.viewpager.widget.ViewPager>
+        <me.relex.circleindicator.CircleIndicator
+            android:id="@+id/circle_indicator"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="16dp"></me.relex.circleindicator.CircleIndicator>
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:text="Tôm nướng sốt Hàn Quốc"
+        android:textSize="21sp"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center_vertical"
+        android:layout_marginLeft="14dp"></TextView>
+
+    <LinearLayout
+        android:weightSum="38"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#EEECEC"
+        android:layout_marginLeft="13dp"
+        android:layout_marginRight="13dp"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_weight="12"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nguyên liệu"
+                android:textAlignment="center"
+                android:layout_marginTop="3dp"
+                android:textSize="17sp"
+                android:fontFamily="sans-serif-medium"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="7"
+                android:textAlignment="center"
+                android:layout_marginTop="4dp"
+                android:textSize="17sp"
+                android:textColor="#1AC569"></TextView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+            <View
+                android:layout_gravity="center"
+                android:layout_marginLeft="3dp"
+                android:layout_marginTop="7dp"
+                android:layout_width="1dp"
+                android:layout_height="30dp"
+                android:background="#666666"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_weight="12"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Thời gian"
+                android:textAlignment="center"
+                android:layout_marginTop="3dp"
+                android:textSize="17sp"
+                android:fontFamily="sans-serif-medium"></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="30 phút"
+                android:textAlignment="center"
+                android:layout_marginTop="4dp"
+                android:textSize="17sp"
+                android:textColor="#1AC569"></TextView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+            <View
+                android:layout_gravity="center"
+                android:layout_marginLeft="3dp"
+                android:layout_marginTop="7dp"
+                android:layout_width="1dp"
+                android:layout_height="30dp"
+                android:background="#666666"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_weight="12"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Độ khó"
+                android:textAlignment="center"
+                android:layout_marginTop="3dp"
+                android:textSize="17sp"
+                android:fontFamily="sans-serif-medium"></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Trung bình"
+                android:textAlignment="center"
+                android:layout_marginTop="4dp"
+                android:textSize="17sp"
+                android:textColor="#1AC569"></TextView>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tab_layout_detail_cook_guide"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        app:tabSelectedTextColor="#1F64FF"
+        app:tabIndicatorColor="#1F64FF">
+
+<!--        <com.google.android.material.tabs.TabItem-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Mô tả chung"/>-->
+
+<!--        <com.google.android.material.tabs.TabItem-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Nguyên liệu" />-->
+
+<!--        <com.google.android.material.tabs.TabItem-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Thực hiện" />-->
+    </com.google.android.material.tabs.TabLayout>
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/view_pager_detail_cook_guide"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFFFF">
+    </androidx.viewpager.widget.ViewPager>
+
+
+    <!--    </com.google.android.material.bottomnavigation.BottomNavigationView>-->
+
+</LinearLayout>

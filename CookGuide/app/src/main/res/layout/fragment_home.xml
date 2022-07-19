@@ -1,0 +1,574 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="#F6F6F6">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/custom_shape_slider_home"
+        android:elevation="3dp">
+
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/viewpager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </androidx.viewpager.widget.ViewPager>
+
+        <me.relex.circleindicator.CircleIndicator
+            android:id="@+id/circle_indicator"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="20dp"></me.relex.circleindicator.CircleIndicator>
+
+    </RelativeLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:text="Khám phá những món ăn nổi bật"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:fontFamily="sans-serif-condensed">
+    </TextView>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewOutstandingFood"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp">
+    </androidx.recyclerview.widget.RecyclerView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:text="Món mới nhất"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:fontFamily="sans-serif-condensed">
+    </TextView>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewNewFood"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp">
+    </androidx.recyclerview.widget.RecyclerView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:text="Món được yêu thích nhất"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:fontFamily="sans-serif-condensed">
+    </TextView>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewFavoriteFood"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp">
+    </androidx.recyclerview.widget.RecyclerView>
+
+<!--    <ScrollView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent">-->
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:orientation="vertical">-->
+<!--            <LinearLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginLeft="15dp"-->
+<!--                android:orientation="horizontal">-->
+<!--                <LinearLayout-->
+<!--                    android:layout_width="140dp"-->
+<!--                    android:layout_height="200dp"-->
+<!--                    android:background="@drawable/custom_shape_item_home"-->
+<!--                    android:orientation="vertical">-->
+<!--                    <com.makeramen.roundedimageview.RoundedImageView-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="90dp"-->
+<!--                        android:src="@drawable/tomnuong123"-->
+<!--                        android:scaleType="centerCrop"-->
+<!--                        app:riv_corner_radius_top_left="10dp"-->
+<!--                        app:riv_corner_radius_top_right="10dp"></com.makeramen.roundedimageview.RoundedImageView>-->
+<!--                    &lt;!&ndash;            <ImageView&ndash;&gt;-->
+<!--                    &lt;!&ndash;                android:background="@drawable/custom_shape_item_home"&ndash;&gt;-->
+<!--                    &lt;!&ndash;                android:id="@+id/imageFood"&ndash;&gt;-->
+<!--                    &lt;!&ndash;                android:layout_width="match_parent"&ndash;&gt;-->
+<!--                    &lt;!&ndash;                android:layout_height="90dp"&ndash;&gt;-->
+<!--                    &lt;!&ndash;                android:src="@drawable/tomnuong123"&ndash;&gt;-->
+<!--                    &lt;!&ndash;                android:scaleType="centerCrop">&ndash;&gt;-->
+<!--                    &lt;!&ndash;            </ImageView>&ndash;&gt;-->
+<!--                    <TextView-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="48dp"-->
+<!--                        android:paddingLeft="8dp"-->
+<!--                        android:paddingRight="5dp"-->
+<!--                        android:text="Mì ramen siêu cay abc acb"-->
+<!--                        android:textSize="17sp"-->
+<!--                        android:textFontWeight="500"-->
+<!--                        android:gravity="center_vertical"-->
+<!--                        android:background="#CEE2EC"-->
+<!--                        android:fontFamily="serif"></TextView>-->
+<!--                    <LinearLayout-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="30dp"-->
+<!--                        android:paddingLeft="5dp"-->
+<!--                        android:paddingRight="5dp"-->
+<!--                        android:gravity="center"-->
+<!--                        android:orientation="horizontal">-->
+<!--                        <ImageView-->
+<!--                            android:layout_width="18dp"-->
+<!--                            android:layout_height="18dp"-->
+<!--                            android:src="@drawable/ic_baseline_alarm_24"-->
+<!--                            android:layout_gravity="center_vertical">-->
+<!--                        </ImageView>-->
+<!--                        <TextView-->
+<!--                            android:layout_width="wrap_content"-->
+<!--                            android:layout_height="match_parent"-->
+<!--                            android:text="155 phút"-->
+<!--                            android:textSize="12sp"-->
+<!--                            android:layout_gravity="center_vertical"-->
+<!--                            android:gravity="center_vertical"></TextView>-->
+<!--                        <ImageView-->
+<!--                            android:layout_width="18dp"-->
+<!--                            android:layout_height="18dp"-->
+<!--                            android:layout_marginLeft="5dp"-->
+<!--                            android:src="@drawable/ic_baseline_flash_on_24"-->
+<!--                            android:layout_gravity="center_vertical">-->
+<!--                        </ImageView>-->
+<!--                        <TextView-->
+<!--                            android:layout_width="wrap_content"-->
+<!--                            android:layout_height="match_parent"-->
+<!--                            android:text="Trung bình"-->
+<!--                            android:textSize="12sp"-->
+<!--                            android:layout_gravity="center_vertical"-->
+<!--                            android:gravity="center_vertical"></TextView>-->
+
+<!--                    </LinearLayout>-->
+<!--                    <LinearLayout-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="30dp"-->
+
+<!--                        android:gravity="center"-->
+<!--                        android:orientation="horizontal">-->
+<!--                        <Button-->
+<!--                            android:layout_width="32dp"-->
+<!--                            android:layout_height="15dp"-->
+<!--                            android:layout_marginLeft="2dp"-->
+<!--                            android:background="@drawable/custom_button_reaction"-->
+<!--                            android:textSize="9sp"-->
+<!--                            android:paddingRight="1dp"-->
+<!--                            android:text="&#128523; 2"-->
+<!--                            android:textColor="@color/white"-->
+<!--                            android:layout_gravity="center_vertical">-->
+<!--                        </Button>-->
+<!--                        <Button-->
+<!--                            android:layout_width="32dp"-->
+<!--                            android:layout_height="15dp"-->
+<!--                            android:layout_marginLeft="6dp"-->
+<!--                            android:background="@drawable/custom_button_reaction"-->
+<!--                            android:textSize="9sp"-->
+<!--                            android:paddingRight="1dp"-->
+<!--                            android:text="&#128523; 2"-->
+<!--                            android:textColor="@color/white"-->
+<!--                            android:layout_gravity="center_vertical">-->
+<!--                        </Button>-->
+<!--                        <Button-->
+<!--                            android:layout_width="32dp"-->
+<!--                            android:layout_height="15dp"-->
+<!--                            android:layout_marginLeft="6dp"-->
+<!--                            android:background="@drawable/custom_button_reaction"-->
+<!--                            android:textSize="9sp"-->
+<!--                            android:paddingRight="1dp"-->
+<!--                            android:text="&#128523; 2"-->
+<!--                            android:textColor="@color/white"-->
+<!--                            android:layout_gravity="center_vertical">-->
+<!--                        </Button>-->
+<!--                    </LinearLayout>-->
+<!--                </LinearLayout>-->
+
+
+<!--                <LinearLayout-->
+<!--                    android:layout_marginLeft="15dp"-->
+<!--                    android:layout_width="140dp"-->
+<!--                    android:layout_height="200dp"-->
+<!--                    android:background="@drawable/custom_shape_item_home"-->
+<!--                    android:orientation="vertical">-->
+<!--                    <com.makeramen.roundedimageview.RoundedImageView-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="90dp"-->
+<!--                        android:src="@drawable/tomnuong123"-->
+<!--                        android:scaleType="centerCrop"-->
+<!--                        app:riv_corner_radius_top_left="10dp"-->
+<!--                        app:riv_corner_radius_top_right="10dp"></com.makeramen.roundedimageview.RoundedImageView>-->
+<!--                    &lt;!&ndash;            <ImageView&ndash;&gt;-->
+<!--                    &lt;!&ndash;                android:background="@drawable/custom_shape_item_home"&ndash;&gt;-->
+<!--                    &lt;!&ndash;                android:id="@+id/imageFood"&ndash;&gt;-->
+<!--                    &lt;!&ndash;                android:layout_width="match_parent"&ndash;&gt;-->
+<!--                    &lt;!&ndash;                android:layout_height="90dp"&ndash;&gt;-->
+<!--                    &lt;!&ndash;                android:src="@drawable/tomnuong123"&ndash;&gt;-->
+<!--                    &lt;!&ndash;                android:scaleType="centerCrop">&ndash;&gt;-->
+<!--                    &lt;!&ndash;            </ImageView>&ndash;&gt;-->
+<!--                    <TextView-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="48dp"-->
+<!--                        android:paddingLeft="8dp"-->
+<!--                        android:paddingRight="5dp"-->
+<!--                        android:text="Mì ramen siêu cay abc acb"-->
+<!--                        android:textSize="17sp"-->
+<!--                        android:textFontWeight="500"-->
+<!--                        android:gravity="center_vertical"-->
+<!--                        android:background="#C4E6F0"-->
+<!--                        android:fontFamily="serif"></TextView>-->
+<!--                    <LinearLayout-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="30dp"-->
+<!--                        android:paddingLeft="5dp"-->
+<!--                        android:paddingRight="5dp"-->
+<!--                        android:gravity="center"-->
+<!--                        android:orientation="horizontal">-->
+<!--                        <ImageView-->
+<!--                            android:layout_width="18dp"-->
+<!--                            android:layout_height="18dp"-->
+<!--                            android:src="@drawable/ic_baseline_alarm_24"-->
+<!--                            android:layout_gravity="center_vertical">-->
+<!--                        </ImageView>-->
+<!--                        <TextView-->
+<!--                            android:layout_width="wrap_content"-->
+<!--                            android:layout_height="match_parent"-->
+<!--                            android:text="155 phút"-->
+<!--                            android:textSize="12sp"-->
+<!--                            android:layout_gravity="center_vertical"-->
+<!--                            android:gravity="center_vertical"></TextView>-->
+<!--                        <ImageView-->
+<!--                            android:layout_width="18dp"-->
+<!--                            android:layout_height="18dp"-->
+<!--                            android:layout_marginLeft="5dp"-->
+<!--                            android:src="@drawable/ic_baseline_flash_on_24"-->
+<!--                            android:layout_gravity="center_vertical">-->
+<!--                        </ImageView>-->
+<!--                        <TextView-->
+<!--                            android:layout_width="wrap_content"-->
+<!--                            android:layout_height="match_parent"-->
+<!--                            android:text="Trung bình"-->
+<!--                            android:textSize="12sp"-->
+<!--                            android:layout_gravity="center_vertical"-->
+<!--                            android:gravity="center_vertical"></TextView>-->
+
+<!--                    </LinearLayout>-->
+<!--                    <LinearLayout-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="30dp"-->
+
+<!--                        android:gravity="center"-->
+<!--                        android:orientation="horizontal">-->
+<!--                        <Button-->
+<!--                            android:layout_width="32dp"-->
+<!--                            android:layout_height="15dp"-->
+<!--                            android:layout_marginLeft="2dp"-->
+<!--                            android:background="@drawable/custom_button_reaction"-->
+<!--                            android:textSize="9sp"-->
+<!--                            android:paddingRight="1dp"-->
+<!--                            android:text="&#128523; 2"-->
+<!--                            android:textColor="@color/white"-->
+<!--                            android:layout_gravity="center_vertical">-->
+<!--                        </Button>-->
+<!--                        <Button-->
+<!--                            android:layout_width="32dp"-->
+<!--                            android:layout_height="15dp"-->
+<!--                            android:layout_marginLeft="6dp"-->
+<!--                            android:background="@drawable/custom_button_reaction"-->
+<!--                            android:textSize="9sp"-->
+<!--                            android:paddingRight="1dp"-->
+<!--                            android:text="&#128523; 2"-->
+<!--                            android:textColor="@color/white"-->
+<!--                            android:layout_gravity="center_vertical">-->
+<!--                        </Button>-->
+<!--                        <Button-->
+<!--                            android:layout_width="32dp"-->
+<!--                            android:layout_height="15dp"-->
+<!--                            android:layout_marginLeft="6dp"-->
+<!--                            android:background="@drawable/custom_button_reaction"-->
+<!--                            android:textSize="9sp"-->
+<!--                            android:paddingRight="1dp"-->
+<!--                            android:text="&#128523; 2"-->
+<!--                            android:textColor="@color/white"-->
+<!--                            android:layout_gravity="center_vertical">-->
+<!--                        </Button>-->
+<!--                    </LinearLayout>-->
+<!--                </LinearLayout>-->
+
+
+<!--            </LinearLayout>-->
+
+
+
+
+
+
+
+
+
+
+
+
+<!--            <LinearLayout-->
+<!--                android:layout_marginTop="20dp"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginLeft="15dp"-->
+<!--                android:orientation="horizontal">-->
+<!--                <LinearLayout-->
+<!--                    android:layout_width="140dp"-->
+<!--                    android:layout_height="200dp"-->
+<!--                    android:background="@drawable/custom_shape_item_home"-->
+<!--                    android:orientation="vertical">-->
+<!--                    <com.makeramen.roundedimageview.RoundedImageView-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="90dp"-->
+<!--                        android:src="@drawable/tomnuong123"-->
+<!--                        android:scaleType="centerCrop"-->
+<!--                        app:riv_corner_radius_top_left="10dp"-->
+<!--                        app:riv_corner_radius_top_right="10dp"></com.makeramen.roundedimageview.RoundedImageView>-->
+<!--                    &lt;!&ndash;            <ImageView&ndash;&gt;-->
+<!--                    &lt;!&ndash;                android:background="@drawable/custom_shape_item_home"&ndash;&gt;-->
+<!--                    &lt;!&ndash;                android:id="@+id/imageFood"&ndash;&gt;-->
+<!--                    &lt;!&ndash;                android:layout_width="match_parent"&ndash;&gt;-->
+<!--                    &lt;!&ndash;                android:layout_height="90dp"&ndash;&gt;-->
+<!--                    &lt;!&ndash;                android:src="@drawable/tomnuong123"&ndash;&gt;-->
+<!--                    &lt;!&ndash;                android:scaleType="centerCrop">&ndash;&gt;-->
+<!--                    &lt;!&ndash;            </ImageView>&ndash;&gt;-->
+<!--                    <TextView-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="48dp"-->
+<!--                        android:paddingLeft="8dp"-->
+<!--                        android:paddingRight="5dp"-->
+<!--                        android:text="Mì ramen siêu cay abc acb"-->
+<!--                        android:textSize="17sp"-->
+<!--                        android:textFontWeight="500"-->
+<!--                        android:gravity="center_vertical"-->
+<!--                        android:background="#DBE1FC"-->
+<!--                        android:fontFamily="serif"></TextView>-->
+<!--                    <LinearLayout-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="30dp"-->
+<!--                        android:paddingLeft="5dp"-->
+<!--                        android:paddingRight="5dp"-->
+<!--                        android:gravity="center"-->
+<!--                        android:orientation="horizontal">-->
+<!--                        <ImageView-->
+<!--                            android:layout_width="18dp"-->
+<!--                            android:layout_height="18dp"-->
+<!--                            android:src="@drawable/ic_baseline_alarm_24"-->
+<!--                            android:layout_gravity="center_vertical">-->
+<!--                        </ImageView>-->
+<!--                        <TextView-->
+<!--                            android:layout_width="wrap_content"-->
+<!--                            android:layout_height="match_parent"-->
+<!--                            android:text="155 phút"-->
+<!--                            android:textSize="12sp"-->
+<!--                            android:layout_gravity="center_vertical"-->
+<!--                            android:gravity="center_vertical"></TextView>-->
+<!--                        <ImageView-->
+<!--                            android:layout_width="18dp"-->
+<!--                            android:layout_height="18dp"-->
+<!--                            android:layout_marginLeft="5dp"-->
+<!--                            android:src="@drawable/ic_baseline_flash_on_24"-->
+<!--                            android:layout_gravity="center_vertical">-->
+<!--                        </ImageView>-->
+<!--                        <TextView-->
+<!--                            android:layout_width="wrap_content"-->
+<!--                            android:layout_height="match_parent"-->
+<!--                            android:text="Trung bình"-->
+<!--                            android:textSize="12sp"-->
+<!--                            android:layout_gravity="center_vertical"-->
+<!--                            android:gravity="center_vertical"></TextView>-->
+
+<!--                    </LinearLayout>-->
+<!--                    <LinearLayout-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="30dp"-->
+
+<!--                        android:gravity="center"-->
+<!--                        android:orientation="horizontal">-->
+<!--                        <Button-->
+<!--                            android:layout_width="32dp"-->
+<!--                            android:layout_height="15dp"-->
+<!--                            android:layout_marginLeft="2dp"-->
+<!--                            android:background="@drawable/custom_button_reaction"-->
+<!--                            android:textSize="9sp"-->
+<!--                            android:paddingRight="1dp"-->
+<!--                            android:text="&#128523; 2"-->
+<!--                            android:textColor="@color/white"-->
+<!--                            android:layout_gravity="center_vertical">-->
+<!--                        </Button>-->
+<!--                        <Button-->
+<!--                            android:layout_width="32dp"-->
+<!--                            android:layout_height="15dp"-->
+<!--                            android:layout_marginLeft="6dp"-->
+<!--                            android:background="@drawable/custom_button_reaction"-->
+<!--                            android:textSize="9sp"-->
+<!--                            android:paddingRight="1dp"-->
+<!--                            android:text="&#128523; 2"-->
+<!--                            android:textColor="@color/white"-->
+<!--                            android:layout_gravity="center_vertical">-->
+<!--                        </Button>-->
+<!--                        <Button-->
+<!--                            android:layout_width="32dp"-->
+<!--                            android:layout_height="15dp"-->
+<!--                            android:layout_marginLeft="6dp"-->
+<!--                            android:background="@drawable/custom_button_reaction"-->
+<!--                            android:textSize="9sp"-->
+<!--                            android:paddingRight="1dp"-->
+<!--                            android:text="&#128523; 2"-->
+<!--                            android:textColor="@color/white"-->
+<!--                            android:layout_gravity="center_vertical">-->
+<!--                        </Button>-->
+<!--                    </LinearLayout>-->
+<!--                </LinearLayout>-->
+
+
+<!--                <LinearLayout-->
+<!--                    android:layout_marginLeft="15dp"-->
+<!--                    android:layout_width="140dp"-->
+<!--                    android:layout_height="200dp"-->
+<!--                    android:background="@drawable/custom_shape_item_home"-->
+<!--                    android:orientation="vertical">-->
+<!--                    <com.makeramen.roundedimageview.RoundedImageView-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="90dp"-->
+<!--                        android:src="@drawable/tomnuong123"-->
+<!--                        android:scaleType="centerCrop"-->
+<!--                        app:riv_corner_radius_top_left="10dp"-->
+<!--                        app:riv_corner_radius_top_right="10dp"></com.makeramen.roundedimageview.RoundedImageView>-->
+<!--                    &lt;!&ndash;            <ImageView&ndash;&gt;-->
+<!--                    &lt;!&ndash;                android:background="@drawable/custom_shape_item_home"&ndash;&gt;-->
+<!--                    &lt;!&ndash;                android:id="@+id/imageFood"&ndash;&gt;-->
+<!--                    &lt;!&ndash;                android:layout_width="match_parent"&ndash;&gt;-->
+<!--                    &lt;!&ndash;                android:layout_height="90dp"&ndash;&gt;-->
+<!--                    &lt;!&ndash;                android:src="@drawable/tomnuong123"&ndash;&gt;-->
+<!--                    &lt;!&ndash;                android:scaleType="centerCrop">&ndash;&gt;-->
+<!--                    &lt;!&ndash;            </ImageView>&ndash;&gt;-->
+<!--                    <TextView-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="48dp"-->
+<!--                        android:paddingLeft="8dp"-->
+<!--                        android:paddingRight="5dp"-->
+<!--                        android:text="Mì ramen siêu cay abc acb"-->
+<!--                        android:textSize="17sp"-->
+<!--                        android:textFontWeight="500"-->
+<!--                        android:gravity="center_vertical"-->
+<!--                        android:background="@color/teal_200"-->
+<!--                        android:fontFamily="serif"></TextView>-->
+<!--                    <LinearLayout-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="30dp"-->
+<!--                        android:paddingLeft="5dp"-->
+<!--                        android:paddingRight="5dp"-->
+<!--                        android:gravity="center"-->
+<!--                        android:orientation="horizontal">-->
+<!--                        <ImageView-->
+<!--                            android:layout_width="18dp"-->
+<!--                            android:layout_height="18dp"-->
+<!--                            android:src="@drawable/ic_baseline_alarm_24"-->
+<!--                            android:layout_gravity="center_vertical">-->
+<!--                        </ImageView>-->
+<!--                        <TextView-->
+<!--                            android:layout_width="wrap_content"-->
+<!--                            android:layout_height="match_parent"-->
+<!--                            android:text="155 phút"-->
+<!--                            android:textSize="12sp"-->
+<!--                            android:layout_gravity="center_vertical"-->
+<!--                            android:gravity="center_vertical"></TextView>-->
+<!--                        <ImageView-->
+<!--                            android:layout_width="18dp"-->
+<!--                            android:layout_height="18dp"-->
+<!--                            android:layout_marginLeft="5dp"-->
+<!--                            android:src="@drawable/ic_baseline_flash_on_24"-->
+<!--                            android:layout_gravity="center_vertical">-->
+<!--                        </ImageView>-->
+<!--                        <TextView-->
+<!--                            android:layout_width="wrap_content"-->
+<!--                            android:layout_height="match_parent"-->
+<!--                            android:text="Trung bình"-->
+<!--                            android:textSize="12sp"-->
+<!--                            android:layout_gravity="center_vertical"-->
+<!--                            android:gravity="center_vertical"></TextView>-->
+
+<!--                    </LinearLayout>-->
+<!--                    <LinearLayout-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="30dp"-->
+
+<!--                        android:gravity="center"-->
+<!--                        android:orientation="horizontal">-->
+<!--                        <Button-->
+<!--                            android:layout_width="32dp"-->
+<!--                            android:layout_height="15dp"-->
+<!--                            android:layout_marginLeft="2dp"-->
+<!--                            android:background="@drawable/custom_button_reaction"-->
+<!--                            android:textSize="9sp"-->
+<!--                            android:paddingRight="1dp"-->
+<!--                            android:text="&#128523; 2"-->
+<!--                            android:textColor="@color/white"-->
+<!--                            android:layout_gravity="center_vertical">-->
+<!--                        </Button>-->
+<!--                        <Button-->
+<!--                            android:layout_width="32dp"-->
+<!--                            android:layout_height="15dp"-->
+<!--                            android:layout_marginLeft="6dp"-->
+<!--                            android:background="@drawable/custom_button_reaction"-->
+<!--                            android:textSize="9sp"-->
+<!--                            android:paddingRight="1dp"-->
+<!--                            android:text="&#128523; 2"-->
+<!--                            android:textColor="@color/white"-->
+<!--                            android:layout_gravity="center_vertical">-->
+<!--                        </Button>-->
+<!--                        <Button-->
+<!--                            android:layout_width="32dp"-->
+<!--                            android:layout_height="15dp"-->
+<!--                            android:layout_marginLeft="6dp"-->
+<!--                            android:background="@drawable/custom_button_reaction"-->
+<!--                            android:textSize="9sp"-->
+<!--                            android:paddingRight="1dp"-->
+<!--                            android:text="&#128523; 2"-->
+<!--                            android:textColor="@color/white"-->
+<!--                            android:layout_gravity="center_vertical">-->
+<!--                        </Button>-->
+<!--                    </LinearLayout>-->
+<!--                </LinearLayout>-->
+
+
+<!--            </LinearLayout>-->
+<!--        </LinearLayout>-->
+
+<!--    </ScrollView>-->
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

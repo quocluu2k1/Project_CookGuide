@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_marginTop="15dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:orientation="horizontal">
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/imageAvatarHistoryComment"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            app:civ_border_width="1dp"
+            app:civ_border_color="#04D325"
+            android:src="@drawable/tomnuong123"
+            android:scaleType="centerCrop"></de.hdodenhof.circleimageview.CircleImageView>
+        <TextView
+            android:id="@+id/textViewNameFood"
+            android:layout_width="230dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="7dp"
+            android:layout_marginTop="7dp"
+            android:textSize="17sp"
+            android:text="Bạn đã bình luận về món Tôm nướng sốt Hàn Quốc"
+            android:fontFamily="sans-serif-condensed"></TextView>
+        <ImageButton
+            android:id="@+id/imageButtonExpandHistoryComment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="0dp"
+            android:background="@null"
+            android:src="@drawable/ic_baseline_more_vert_30"
+            android:layout_marginLeft="7dp"
+            android:layout_marginTop="6dp">
+        </ImageButton>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="72dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/textViewContentComment"
+            android:layout_width="230dp"
+            android:layout_height="wrap_content"
+            android:text="Ôi ! Món ăn ngon quá"
+            android:textSize="16sp"></TextView>
+        <com.makeramen.roundedimageview.RoundedImageView
+            android:id="@+id/imageViewComment"
+            android:layout_marginTop="5dp"
+            android:layout_width="144dp"
+            android:layout_height="96dp"
+            android:src="@drawable/tomnuong123"
+            app:riv_corner_radius="7dp"
+            android:scaleType="centerCrop"></com.makeramen.roundedimageview.RoundedImageView>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+    <TextView
+        android:layout_marginTop="25dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lịch sử bình luận"
+        android:textSize="22sp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textFontWeight="700"
+        android:fontFamily="sans-serif"
+        android:paddingBottom="30dp"></TextView>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:id="@+id/layoutRoot"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:orientation="vertical">
+
+    </LinearLayout>
+</ScrollView>
+
+<!--    <ScrollView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent">-->
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:orientation="vertical">-->
+
+<!--        <LinearLayout-->
+<!--            android:layout_marginLeft="15dp"-->
+<!--            android:layout_marginRight="15dp"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:orientation="vertical">-->
+<!--            <TextView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="23 tháng 3, 2022"-->
+<!--                android:textSize="20sp"-->
+<!--                android:fontFamily="serif"-->
+<!--                android:textFontWeight="600"></TextView>-->
+<!--            <LinearLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginTop="10dp"-->
+<!--                android:orientation="vertical">-->
+<!--                <LinearLayout-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_marginLeft="5dp"-->
+<!--                    android:orientation="horizontal">-->
+<!--                    <de.hdodenhof.circleimageview.CircleImageView-->
+<!--                        android:layout_width="60dp"-->
+<!--                        android:layout_height="60dp"-->
+<!--                        app:civ_border_width="1dp"-->
+<!--                        app:civ_border_color="#04D325"-->
+<!--                        android:src="@drawable/tomnuong123"-->
+<!--                        android:scaleType="centerCrop"></de.hdodenhof.circleimageview.CircleImageView>-->
+<!--                    <TextView-->
+<!--                        android:id="@+id/textViewNameFood"-->
+<!--                        android:layout_width="230dp"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_marginLeft="7dp"-->
+<!--                        android:layout_marginTop="7dp"-->
+<!--                        android:textSize="17sp"-->
+<!--                        android:text="Bạn đã bình luận về món Tôm nướng sốt Hàn Quốc"-->
+<!--                        android:fontFamily="sans-serif-condensed"></TextView>-->
+<!--                    <ImageButton-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:padding="0dp"-->
+<!--                        android:background="@null"-->
+<!--                        android:src="@drawable/ic_baseline_more_vert_30"-->
+<!--                        android:layout_marginLeft="7dp"-->
+<!--                        android:layout_marginTop="6dp">-->
+<!--                    </ImageButton>-->
+<!--                </LinearLayout>-->
+<!--                <LinearLayout-->
+<!--                    android:layout_marginTop="5dp"-->
+<!--                    android:layout_marginLeft="72dp"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:orientation="vertical">-->
+<!--                    <TextView-->
+<!--                        android:layout_width="230dp"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:text="Ôi ! Món ăn ngon quá"-->
+<!--                        android:textSize="16sp"></TextView>-->
+<!--                    <com.makeramen.roundedimageview.RoundedImageView-->
+<!--                        android:layout_marginTop="5dp"-->
+<!--                        android:layout_width="144dp"-->
+<!--                        android:layout_height="96dp"-->
+<!--                        android:src="@drawable/tomnuong123"-->
+<!--                        app:riv_corner_radius="7dp"-->
+<!--                        android:scaleType="centerCrop"></com.makeramen.roundedimageview.RoundedImageView>-->
+<!--                </LinearLayout>-->
+<!--            </LinearLayout>-->
+
+
+<!--            <LinearLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginTop="10dp"-->
+<!--                android:orientation="vertical">-->
+<!--                <LinearLayout-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_marginLeft="5dp"-->
+<!--                    android:orientation="horizontal">-->
+<!--                    <de.hdodenhof.circleimageview.CircleImageView-->
+<!--                        android:layout_width="60dp"-->
+<!--                        android:layout_height="60dp"-->
+<!--                        app:civ_border_width="1dp"-->
+<!--                        app:civ_border_color="#04D325"-->
+<!--                        android:src="@drawable/tomnuong123"-->
+<!--                        android:scaleType="centerCrop"></de.hdodenhof.circleimageview.CircleImageView>-->
+<!--                    <TextView-->
+<!--                        android:id="@+id/textViewNameFood1"-->
+<!--                        android:layout_width="230dp"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_marginLeft="7dp"-->
+<!--                        android:layout_marginTop="7dp"-->
+<!--                        android:textSize="17sp"-->
+<!--                        android:text="Bạn đã bình luận về món Tôm nướng sốt Hàn Quốc"-->
+<!--                        android:fontFamily="sans-serif-condensed"></TextView>-->
+<!--                    <ImageButton-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:padding="0dp"-->
+<!--                        android:background="@null"-->
+<!--                        android:src="@drawable/ic_baseline_more_vert_30"-->
+<!--                        android:layout_marginLeft="7dp"-->
+<!--                        android:layout_marginTop="6dp">-->
+<!--                    </ImageButton>-->
+<!--                </LinearLayout>-->
+<!--                <LinearLayout-->
+<!--                    android:layout_marginTop="5dp"-->
+<!--                    android:layout_marginLeft="72dp"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:orientation="vertical">-->
+<!--                    <TextView-->
+<!--                        android:layout_width="230dp"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:text="Ôi ! Món ăn ngon quá"-->
+<!--                        android:textSize="16sp"></TextView>-->
+<!--                    <com.makeramen.roundedimageview.RoundedImageView-->
+<!--                        android:layout_marginTop="5dp"-->
+<!--                        android:layout_width="144dp"-->
+<!--                        android:layout_height="96dp"-->
+<!--                        android:src="@drawable/tomnuong123"-->
+<!--                        app:riv_corner_radius="7dp"-->
+<!--                        android:scaleType="centerCrop"></com.makeramen.roundedimageview.RoundedImageView>-->
+<!--                </LinearLayout>-->
+<!--            </LinearLayout>-->
+<!--        </LinearLayout>-->
+
+
+
+
+
+
+<!--        <LinearLayout-->
+<!--            android:layout_marginTop="30dp"-->
+<!--            android:layout_marginLeft="15dp"-->
+<!--            android:layout_marginRight="15dp"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:orientation="vertical">-->
+<!--            <TextView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="20 tháng 3, 2022"-->
+<!--                android:textSize="20sp"-->
+<!--                android:fontFamily="serif"-->
+<!--                android:textFontWeight="600"></TextView>-->
+<!--            <LinearLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginTop="10dp"-->
+<!--                android:orientation="vertical">-->
+<!--                <LinearLayout-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_marginLeft="5dp"-->
+<!--                    android:orientation="horizontal">-->
+<!--                    <de.hdodenhof.circleimageview.CircleImageView-->
+<!--                        android:layout_width="60dp"-->
+<!--                        android:layout_height="60dp"-->
+<!--                        app:civ_border_width="1dp"-->
+<!--                        app:civ_border_color="#04D325"-->
+<!--                        android:src="@drawable/tomnuong123"-->
+<!--                        android:scaleType="centerCrop"></de.hdodenhof.circleimageview.CircleImageView>-->
+<!--                    <TextView-->
+<!--                        android:id="@+id/textViewNameFood2"-->
+<!--                        android:layout_width="230dp"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_marginLeft="7dp"-->
+<!--                        android:layout_marginTop="7dp"-->
+<!--                        android:textSize="17sp"-->
+<!--                        android:text="Bạn đã bình luận về món Tôm nướng sốt Hàn Quốc"-->
+<!--                        android:fontFamily="sans-serif-condensed"></TextView>-->
+<!--                    <ImageButton-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:padding="0dp"-->
+<!--                        android:background="@null"-->
+<!--                        android:src="@drawable/ic_baseline_more_vert_30"-->
+<!--                        android:layout_marginLeft="7dp"-->
+<!--                        android:layout_marginTop="6dp">-->
+<!--                    </ImageButton>-->
+<!--                </LinearLayout>-->
+<!--                <LinearLayout-->
+<!--                    android:layout_marginTop="5dp"-->
+<!--                    android:layout_marginLeft="72dp"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:orientation="vertical">-->
+<!--                    <TextView-->
+<!--                        android:layout_width="230dp"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:text="Ôi ! Món ăn ngon quá"-->
+<!--                        android:textSize="16sp"></TextView>-->
+<!--                    <com.makeramen.roundedimageview.RoundedImageView-->
+<!--                        android:layout_marginTop="5dp"-->
+<!--                        android:layout_width="144dp"-->
+<!--                        android:layout_height="96dp"-->
+<!--                        android:src="@drawable/tomnuong123"-->
+<!--                        app:riv_corner_radius="7dp"-->
+<!--                        android:scaleType="centerCrop"></com.makeramen.roundedimageview.RoundedImageView>-->
+<!--                </LinearLayout>-->
+<!--            </LinearLayout>-->
+<!--        </LinearLayout>-->
+
+
+<!--        -->
+<!--    </LinearLayout>-->
+<!--    </ScrollView>-->
+
+</LinearLayout>

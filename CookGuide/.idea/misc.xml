@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Hoc Tap/Phat trien ung dung Mobile/CookGuide/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.163" />
+        <entry key="..\:/Hoc Tap/Phat trien ung dung Mobile/CookGuide/app/src/main/res/drawable/circle_shape.xml" value="0.163" />
+        <entry key="..\:/Hoc Tap/Phat trien ung dung Mobile/CookGuide/app/src/main/res/drawable/circular_progress_bar.xml" value="0.163" />
+        <entry key="..\:/Hoc Tap/Phat trien ung dung Mobile/CookGuide/app/src/main/res/drawable/custom_button_circle_close.xml" value="0.1245" />
+        <entry key="..\:/Hoc Tap/Phat trien ung dung Mobile/CookGuide/app/src/main/res/drawable/custom_button_finish_guide.xml" value="0.1245" />
+        <entry key="..\:/Hoc Tap/Phat trien ung dung Mobile/CookGuide/app/src/main/res/drawable/custom_button_reaction.xml" value="0.1245" />
+        <entry key="..\:/Hoc Tap/Phat trien ung dung Mobile/CookGuide/app/src/main/res/drawable/custom_button_reactioned.xml" value="0.1245" />
+        <entry key="..\:/Hoc Tap/Phat trien ung dung Mobile/CookGuide/app/src/main/res/drawable/custom_button_timestamp.xml" value="0.1245" />
+        <entry key="..\:/Hoc Tap/Phat trien ung dung Mobile/CookGuide/app/src/main/res/drawable/custom_edittext_comment.xml" value="0.138" />
+        <entry key="..\:/Hoc Tap/Phat trien ung dung Mobile/CookGuide/app/src/main/res/drawable/custom_image_circle_complete.xml" value="0.1245" />
+        <entry key="..\:/Hoc Tap/Phat trien ung dung Mobile/CookGuide/app/src/main/res/drawable/custom_shape_button_comment.xml" value="0.1245" />
+        <entry key="..\:/Hoc Tap/Phat trien ung dung Mobile/CookGuide/app/src/main/res/drawable/custom_shape_button_edit.xml" value="0.1155" />
+        <entry key="..\:/Hoc Tap/Phat trien ung dung Mobile/CookGuide/app/src/main/res/drawable/custom_shape_button_edit_change.xml" value="0.1155" />
+        <entry key="..\:/Hoc Tap/Phat trien ung dung Mobile/CookGuide/app/src/main/res/drawable/custom_shape_edittext_profile.xml" value="0.1155" />
+        <entry key="..\:/Hoc Tap/Phat trien ung dung Mobile/CookGuide/app/src/main/res/drawable/custom_shape_image_circle.xml" value="0.1245" />
+        <entry key="..\:/Hoc Tap/Phat trien ung dung Mobile/CookGuide/app/src/main/res/drawable/custom_shape_item_history_search.xml" value="0.1445" />
+        <entry key="..\:/Hoc Tap/Phat trien ung dung Mobile/CookGuide/app/src/main/res/drawable/custom_shape_item_home.xml" value="0.1445" />
+        <entry key="..\:/Hoc Tap/Phat trien ung dung Mobile/CookGuide/app/src/main/res/drawable/custom_shape_item_result_search.xml" value="0.1445" />
+        <entry key="..\:/Hoc Tap/Phat trien ung dung Mobile/CookGuide/app/src/main/res/drawable/custom_shape_radio_filter.xml" value="0.1445" />
+        <entry key="..\:/Hoc Tap/Phat trien ung dung Mobile/CookGuide/app/src/main/res/drawable/custom_shape_radio_filter_selected.xml" value="0.1445" />
+        <entry key="..\:/Hoc Tap/Phat trien ung dung Mobile/CookGuide/app/src/main/res/drawable/custom_shape_searchview.xml" value="0.1445" />
+        <entry key="..\:/Hoc Tap/Phat trien ung dung Mobile/CookGuide/app/src/main/res/drawable/custom_shape_slider_home.xml" value="0.1445" />
+        <entry key="..\:/Hoc Tap/Phat trien ung dung Mobile/CookGuide/app/src/main/res/drawable/custom_shape_step_complete.xml" value="0.1245" />
+        <entry key="..\:/Hoc Tap/Phat trien ung dung Mobile/CookGuide/app/src/main/res/drawable/custom_shape_step_imp.xml" value="0.1245" />
+        <entry key="..\:/Hoc Tap/Phat trien ung dung Mobile/CookGuide/app/src/main/res/drawable/custom_text_color_filter.xml" value="0.1445" />
+        <entry key="..\:/Hoc Tap/Phat trien ung dung Mobile/CookGuide/app/src/main/res/drawable/edit_text_profile_selector.xml" value="0.1155" />
+        <entry key="..\:/Hoc Tap/Phat trien ung dung Mobile/CookGuide/app/src/main/res/drawable/ic_baseline_alarm_24.xml" value="0.1445" />
+        <entry key="..\:/Hoc Tap/Phat trien ung dung Mobile/CookGuide/app/src/main/res/drawable/ic_baseline_arrow_back_24.xml" value="0.1245" />
+        <entry key="..\:/Hoc Tap/Phat trien ung dung Mobile/CookGuide/app/src/main/res/drawable/ic_baseline_arrow_back_24_black.xml" value="0.1245" />
+        <entry key="..\:/Hoc Tap/Phat trien ung dung Mobile/CookGuide/app/src/main/res/drawable/ic_baseline_arrow_back_35.xml" value="0.1445" />
+        <entry key="..\:/Hoc Tap/Phat trien ung dung Mobile/CookGuide/app/src/main/res/drawable/ic_baseline_arrow_back_50.xml" value="0.1245" />
+        <entry key="..\:/Hoc Tap/Phat trien ung dung Mobile/CookGuide/app/src/main/res/drawable/ic_baseline_bookmarks_24.xml" value="0.1245" />
+        <entry key="..\:/Hoc Tap/Phat trien ung dung Mobile/CookGuide/app/src/main/res/drawable/ic_baseline_border_color_24.xml" value="0.1155" />
+        <entry key="..\:/Hoc Tap/Phat trien ung dung Mobile/CookGuide/app/src/main/res/drawable/ic_baseline_cancel_24.xml" value="0.138" />
+        <entry key="..\:/Hoc Tap/Phat trien ung dung Mobile/CookGuide/app/src/main/res/drawable/ic_baseline_check_24.xml" value="0.1245" />
+        <entry key="..\:/Hoc Tap/Phat trien ung dung Mobile/CookGuide/app/src/main/res/drawable/ic_baseline_check_circle_24.xml" value="0.1245" />
+        <entry key="..\:/Hoc Tap/Phat trien ung dung Mobile/CookGuide/app/src/main/res/drawable/ic_baseline_check_complete.xml" value="0.1155" />
+        <entry key="..\:/Hoc Tap/Phat trien ung dung Mobile/CookGuide/app/src/main/res/drawable/ic_baseline_check_edit_btn.xml" value="0.1155" />
+        <entry key="..\:/Hoc Tap/Phat trien ung dung Mobile/CookGuide/app/src/main/res/drawable/ic_baseline_close_24.xml" value="0.1245" />
+        <entry key="..\:/Hoc Tap/Phat trien ung dung Mobile/CookGuide/app/src/main/res/drawable/ic_baseline_close_30.xml" value="0.1445" />
+        <entry key="..\:/Hoc Tap/Phat trien ung dung Mobile/CookGuide/app/src/main/res/drawable/ic_baseline_close_40.xml" value="0.1445" />
+        <entry key="..\:/Hoc Tap/Phat trien ung dung Mobile/CookGuide/app/src/main/res/drawable/ic_baseline_expand_circle_down_24.xml" value="0.1445" />
+        <entry key="..\:/Hoc Tap/Phat trien ung dung Mobile/CookGuide/app/src/main/res/drawable/ic_baseline_favorite_24.xml" value="0.1245" />
+        <entry key="..\:/Hoc Tap/Phat trien ung dung Mobile/CookGuide/app/src/main/res/drawable/ic_baseline_filter_list_24.xml" value="0.1445" />
+        <entry key="..\:/Hoc Tap/Phat trien ung dung Mobile/CookGuide/app/src/main/res/drawable/ic_baseline_flash_on_24.xml" value="0.1" />
+        <entry key="..\:/Hoc Tap/Phat trien ung dung Mobile/CookGuide/app/src/main/res/drawable/ic_baseline_history_24.xml" value="0.1445" />
+        <entry key="..\:/Hoc Tap/Phat trien ung dung Mobile/CookGuide/app/src/main/res/drawable/ic_baseline_insert_photo_30.xml" value="0.1445" />
+        <entry key="..\:/Hoc Tap/Phat trien ung dung Mobile/CookGuide/app/src/main/res/drawable/ic_baseline_more_vert_30.xml" value="0.1445" />
+        <entry key="..\:/Hoc Tap/Phat trien ung dung Mobile/CookGuide/app/src/main/res/drawable/ic_baseline_north_west_35.xml" value="0.1445" />
+        <entry key="..\:/Hoc Tap/Phat trien ung dung Mobile/CookGuide/app/src/main/res/drawable/ic_baseline_pause_circle_filled_24.xml" value="0.1245" />
+        <entry key="..\:/Hoc Tap/Phat trien ung dung Mobile/CookGuide/app/src/main/res/drawable/ic_baseline_photo_size_select_actual_30.xml" value="0.1445" />
+        <entry key="..\:/Hoc Tap/Phat trien ung dung Mobile/CookGuide/app/src/main/res/drawable/ic_baseline_play_circle_filled_24.xml" value="0.1245" />
+        <entry key="..\:/Hoc Tap/Phat trien ung dung Mobile/CookGuide/app/src/main/res/drawable/ic_baseline_saved_search_35.xml" value="0.1445" />
+        <entry key="..\:/Hoc Tap/Phat trien ung dung Mobile/CookGuide/app/src/main/res/drawable/ic_baseline_search_24.xml" value="0.1445" />
+        <entry key="..\:/Hoc Tap/Phat trien ung dung Mobile/CookGuide/app/src/main/res/drawable/ic_baseline_send_24.xml" value="0.1245" />
+        <entry key="..\:/Hoc Tap/Phat trien ung dung Mobile/CookGuide/app/src/main/res/drawable/ic_baseline_send_30.xml" value="0.1445" />
+        <entry key="..\:/Hoc Tap/Phat trien ung dung Mobile/CookGuide/app/src/main/res/drawable/ic_launcher_background.xml" value="0.163" />
+        <entry key="..\:/Hoc Tap/Phat trien ung dung Mobile/CookGuide/app/src/main/res/drawable/radio_filter.xml" value="0.1445" />
+        <entry key="..\:/Hoc Tap/Phat trien ung dung Mobile/CookGuide/app/src/main/res/font/font_text_home.xml" value="0.1923899102180419" />
+        <entry key="..\:/Hoc Tap/Phat trien ung dung Mobile/CookGuide/app/src/main/res/layout/activity_cook_guide_complete.xml" value="0.1675929884566054" />
+        <entry key="..\:/Hoc Tap/Phat trien ung dung Mobile/CookGuide/app/src/main/res/layout/activity_history_search.xml" value="0.25" />
+        <entry key="..\:/Hoc Tap/Phat trien ung dung Mobile/CookGuide/app/src/main/res/layout/activity_main.xml" value="0.18" />
+        <entry key="..\:/Hoc Tap/Phat trien ung dung Mobile/CookGuide/app/src/main/res/layout/activity_main1.xml" value="0.1" />
+        <entry key="..\:/Hoc Tap/Phat trien ung dung Mobile/CookGuide/app/src/main/res/layout/activity_main2.xml" value="0.1675929884566054" />
+        <entry key="..\:/Hoc Tap/Phat trien ung dung Mobile/CookGuide/app/src/main/res/layout/circle_shape.xml" value="0.19010416666666666" />
+        <entry key="..\:/Hoc Tap/Phat trien ung dung Mobile/CookGuide/app/src/main/res/layout/comment_food.xml" value="0.16" />
+        <entry key="..\:/Hoc Tap/Phat trien ung dung Mobile/CookGuide/app/src/main/res/layout/content_timestamp1.xml" value="0.2" />
+        <entry key="..\:/Hoc Tap/Phat trien ung dung Mobile/CookGuide/app/src/main/res/layout/cook_guide_complete.xml" value="0.2" />
+        <entry key="..\:/Hoc Tap/Phat trien ung dung Mobile/CookGuide/app/src/main/res/layout/detail_cook_guide.xml" value="0.1" />
+        <entry key="..\:/Hoc Tap/Phat trien ung dung Mobile/CookGuide/app/src/main/res/layout/footer_comment.xml" value="0.1675929884566054" />
+        <entry key="..\:/Hoc Tap/Phat trien ung dung Mobile/CookGuide/app/src/main/res/layout/fragment_comment.xml" value="0.16" />
+        <entry key="..\:/Hoc Tap/Phat trien ung dung Mobile/CookGuide/app/src/main/res/layout/fragment_description.xml" value="0.25" />
+        <entry key="..\:/Hoc Tap/Phat trien ung dung Mobile/CookGuide/app/src/main/res/layout/fragment_first.xml" value="0.22" />
+        <entry key="..\:/Hoc Tap/Phat trien ung dung Mobile/CookGuide/app/src/main/res/layout/fragment_home.xml" value="0.2205128205128205" />
+        <entry key="..\:/Hoc Tap/Phat trien ung dung Mobile/CookGuide/app/src/main/res/layout/fragment_implementation.xml" value="0.25" />
+        <entry key="..\:/Hoc Tap/Phat trien ung dung Mobile/CookGuide/app/src/main/res/layout/fragment_material.xml" value="0.25" />
+        <entry key="..\:/Hoc Tap/Phat trien ung dung Mobile/CookGuide/app/src/main/res/layout/fragment_profile.xml" value="0.2" />
+        <entry key="..\:/Hoc Tap/Phat trien ung dung Mobile/CookGuide/app/src/main/res/layout/fragment_search.xml" value="0.25" />
+        <entry key="..\:/Hoc Tap/Phat trien ung dung Mobile/CookGuide/app/src/main/res/layout/fragment_second.xml" value="0.1675929884566054" />
+        <entry key="..\:/Hoc Tap/Phat trien ung dung Mobile/CookGuide/app/src/main/res/layout/item_comment.xml" value="0.22" />
+        <entry key="..\:/Hoc Tap/Phat trien ung dung Mobile/CookGuide/app/src/main/res/layout/item_food_home.xml" value="0.25" />
+        <entry key="..\:/Hoc Tap/Phat trien ung dung Mobile/CookGuide/app/src/main/res/layout/item_history_comment.xml" value="0.25" />
+        <entry key="..\:/Hoc Tap/Phat trien ung dung Mobile/CookGuide/app/src/main/res/layout/item_history_search.xml" value="0.22" />
+        <entry key="..\:/Hoc Tap/Phat trien ung dung Mobile/CookGuide/app/src/main/res/layout/item_implementation.xml" value="0.25" />
+        <entry key="..\:/Hoc Tap/Phat trien ung dung Mobile/CookGuide/app/src/main/res/layout/item_material.xml" value="0.1675929884566054" />
+        <entry key="..\:/Hoc Tap/Phat trien ung dung Mobile/CookGuide/app/src/main/res/layout/item_meterial_other.xml" value="0.1675929884566054" />
+        <entry key="..\:/Hoc Tap/Phat trien ung dung Mobile/CookGuide/app/src/main/res/layout/item_photo.xml" value="0.15" />
+        <entry key="..\:/Hoc Tap/Phat trien ung dung Mobile/CookGuide/app/src/main/res/layout/item_photo_slider_home.xml" value="0.25" />
+        <entry key="..\:/Hoc Tap/Phat trien ung dung Mobile/CookGuide/app/src/main/res/layout/item_result_search.xml" value="0.1675929884566054" />
+        <entry key="..\:/Hoc Tap/Phat trien ung dung Mobile/CookGuide/app/src/main/res/layout/item_slider_home.xml" value="0.1675929884566054" />
+        <entry key="..\:/Hoc Tap/Phat trien ung dung Mobile/CookGuide/app/src/main/res/layout/item_suggestion_search.xml" value="0.1675929884566054" />
+        <entry key="..\:/Hoc Tap/Phat trien ung dung Mobile/CookGuide/app/src/main/res/layout/item_textview_history_comment.xml" value="0.1675929884566054" />
+        <entry key="..\:/Hoc Tap/Phat trien ung dung Mobile/CookGuide/app/src/main/res/layout/timestamp.xml" value="0.25" />
+        <entry key="..\:/Hoc Tap/Phat trien ung dung Mobile/CookGuide/app/src/main/res/layout/timestamp1.xml" value="0.25" />
+        <entry key="..\:/Hoc Tap/Phat trien ung dung Mobile/CookGuide/app/src/main/res/menu/menu_bottom_nav_bar_main.xml" value="0.1675929884566054" />
+        <entry key="..\:/Hoc Tap/Phat trien ung dung Mobile/CookGuide/app/src/main/res/menu/popup_menu_comment.xml" value="0.2" />
+        <entry key="..\:/Hoc Tap/Phat trien ung dung Mobile/CookGuide/app/src/main/res/menu/popup_menu_history_comment.xml" value="0.1675929884566054" />
+        <entry key="..\:/Hoc Tap/Phat trien ung dung Mobile/CookGuide/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.163" />
+        <entry key="..\:/Hoc Tap/Phat trien ung dung Mobile/CookGuide/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1" />
+        <entry key="..\:/ProjectAppMobileFinal/CookGuide/app/src/main/res/drawable/background.xml" value="0.1155" />
+        <entry key="..\:/ProjectAppMobileFinal/CookGuide/app/src/main/res/drawable/ic_log_out.xml" value="0.1155" />
+        <entry key="..\:/ProjectAppMobileFinal/CookGuide/app/src/main/res/drawable/rectangle_5.xml" value="0.1155" />
+        <entry key="..\:/ProjectAppMobileFinal/CookGuide/app/src/main/res/layout/activity_change_new_password.xml" value="0.1675929884566054" />
+        <entry key="..\:/ProjectAppMobileFinal/CookGuide/app/src/main/res/layout/activity_forgot_password.xml" value="0.2" />
+        <entry key="..\:/ProjectAppMobileFinal/CookGuide/app/src/main/res/layout/activity_login.xml" value="0.22" />
+        <entry key="..\:/ProjectAppMobileFinal/CookGuide/app/src/main/res/layout/activity_otpverify.xml" value="0.1675929884566054" />
+        <entry key="..\:/ProjectAppMobileFinal/CookGuide/app/src/main/res/layout/activity_sign_up.xml" value="0.1675929884566054" />
+        <entry key="..\:/ProjectAppMobileFinal/CookGuide/app/src/main/res/layout/bookmark_item.xml" value="0.1675929884566054" />
+        <entry key="..\:/ProjectAppMobileFinal/CookGuide/app/src/main/res/layout/comment_food.xml" value="0.1675929884566054" />
+        <entry key="..\:/ProjectAppMobileFinal/CookGuide/app/src/main/res/layout/fragment_comment.xml" value="0.1675929884566054" />
+        <entry key="..\:/ProjectAppMobileFinal/CookGuide/app/src/main/res/layout/fragment_markbook.xml" value="0.1675929884566054" />
+        <entry key="..\:/ProjectAppMobileFinal/CookGuide/app/src/main/res/layout/fragment_profile.xml" value="0.33" />
+        <entry key="..\:/ProjectAppMobileFinal/CookGuide/app/src/main/res/layout/fragment_search.xml" value="0.1675929884566054" />
+        <entry key="..\:/ProjectAppMobileFinal/CookGuide/app/src/main/res/layout/item_comment.xml" value="0.33" />
+        <entry key="..\:/ProjectAppMobileFinal/CookGuide/app/src/main/res/layout/plash_screen.xml" value="0.1675929884566054" />
+        <entry key="..\:/ProjectAppMobileFinal/CookGuide/app/src/main/res/layout/user_fragment_profile.xml" value="0.1675929884566054" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

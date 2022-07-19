@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".DetailCookGuideActivity">
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/main_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:id="@+id/appbar"
+            android:layout_width="match_parent"
+            android:layout_height="341dp"
+            android:theme="@style/Platform.MaterialComponents.Light"
+            android:fitsSystemWindows="true">
+
+            <com.google.android.material.appbar.CollapsingToolbarLayout
+                android:id="@+id/collapsing_toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="301dp"
+                android:fitsSystemWindows="true"
+                app:contentScrim="#1AC569"
+                app:expandedTitleTextAppearance="@android:color/transparent"
+                app:layout_scrollFlags="scroll|exitUntilCollapsed">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:background="#ffff">
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="190dp"
+                        android:background="#E1E1E1">
+
+                        <androidx.viewpager.widget.ViewPager
+                            android:id="@+id/viewpager"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                        </androidx.viewpager.widget.ViewPager>
+
+                        <me.relex.circleindicator.CircleIndicator
+                            android:id="@+id/circle_indicator"
+                            android:layout_width="wrap_content"
+                            android:layout_height="30dp"
+                            android:layout_alignParentBottom="true"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="16dp"
+                            android:layout_marginBottom="20dp"></me.relex.circleindicator.CircleIndicator>
+
+                    </RelativeLayout>
+
+                    <TextView
+                        android:id="@+id/textViewNameFood"
+                        android:layout_width="match_parent"
+                        android:layout_height="46dp"
+                        android:text="Tôm nướng sốt Hàn Quốc"
+                        android:textSize="21sp"
+                        android:fontFamily="sans-serif-medium"
+                        android:gravity="center_vertical"
+                        android:layout_marginLeft="14dp"></TextView>
+
+                    <LinearLayout
+                        android:weightSum="38"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:background="#EEECEC"
+                        android:layout_marginLeft="13dp"
+                        android:layout_marginRight="13dp"
+                        android:orientation="horizontal">
+                        <LinearLayout
+                            android:layout_weight="12"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Nguyên liệu"
+                                android:textAlignment="center"
+                                android:layout_marginTop="3dp"
+                                android:textSize="17sp"
+                                android:fontFamily="sans-serif-medium"></TextView>
+
+                            <TextView
+                                android:id="@+id/textViewNumberMaterial"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="7"
+                                android:textAlignment="center"
+                                android:layout_marginTop="4dp"
+                                android:textSize="17sp"
+                                android:textColor="#1AC569"></TextView>
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent">
+                            <View
+                                android:layout_gravity="center"
+                                android:layout_marginLeft="3dp"
+                                android:layout_marginTop="7dp"
+                                android:layout_width="1dp"
+                                android:layout_height="30dp"
+                                android:background="#666666"/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_weight="12"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Thời gian"
+                                android:textAlignment="center"
+                                android:layout_marginTop="3dp"
+                                android:textSize="17sp"
+                                android:fontFamily="sans-serif-medium"></TextView>
+                            <TextView
+                                android:id="@+id/textViewNumberMinutes"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="30 phút"
+                                android:textAlignment="center"
+                                android:layout_marginTop="4dp"
+                                android:textSize="17sp"
+                                android:textColor="#1AC569"></TextView>
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent">
+                            <View
+                                android:layout_gravity="center"
+                                android:layout_marginLeft="3dp"
+                                android:layout_marginTop="7dp"
+                                android:layout_width="1dp"
+                                android:layout_height="30dp"
+                                android:background="#666666"/>
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_weight="12"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Độ khó"
+                                android:textAlignment="center"
+                                android:layout_marginTop="3dp"
+                                android:textSize="17sp"
+                                android:fontFamily="sans-serif-medium"></TextView>
+                            <TextView
+                                android:id="@+id/textViewLevel"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Trung bình"
+                                android:textAlignment="center"
+                                android:layout_marginTop="4dp"
+                                android:textSize="17sp"
+                                android:textColor="#1AC569"></TextView>
+                        </LinearLayout>
+
+                    </LinearLayout>
+                </LinearLayout>
+                <androidx.appcompat.widget.Toolbar
+                    android:id="@+id/toolbar"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+                    app:layout_collapseMode="pin">
+                    <ImageButton
+                        android:id="@+id/buttonBackDetail"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@null"
+                        android:padding="0dp"
+                        android:src="@drawable/ic_baseline_arrow_back_50"></ImageButton>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="20dp"
+                        android:text="Chi tiết"
+                        android:textColor="#ffff"
+                        android:textSize="24sp"
+                        android:textFontWeight="@integer/material_motion_duration_medium_2"></TextView>
+                    <ImageButton
+                        android:id="@+id/buttonBookmarkFood"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:src="@drawable/ic_baseline_bookmarks_24"
+                        android:background="@null"
+                        android:layout_gravity="right"
+                        android:layout_marginRight="30dp"
+                        android:layout_marginTop="10dp"></ImageButton>
+                </androidx.appcompat.widget.Toolbar>
+
+            </com.google.android.material.appbar.CollapsingToolbarLayout>
+
+            <com.google.android.material.tabs.TabLayout
+                android:id="@+id/tab_layout_detail_cook_guide"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                app:tabSelectedTextColor="#1F64FF"
+                app:tabIndicatorColor="#1F64FF">
+            </com.google.android.material.tabs.TabLayout>
+
+        </com.google.android.material.appbar.AppBarLayout>
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/view_pager_detail_cook_guide"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+</LinearLayout>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="@drawable/custom_shape_item_history_search"
+    android:layout_marginLeft="7dp"
+    android:layout_marginRight="7dp"
+    android:layout_marginTop="10dp"
+    android:paddingTop="5dp"
+    android:paddingBottom="5dp"
+    android:elevation="2dp">
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center_vertical"
+        android:padding="0dp"
+        android:layout_marginLeft="10dp"
+        android:background="@null"
+        android:src="@drawable/ic_baseline_history_24"></ImageView>
+    <LinearLayout
+        android:id="@+id/layoutContentHistorySearch"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginLeft="20dp"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/textViewContentHistorySearch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Bò kho bánh mì"
+            android:fontFamily="sans-serif"
+            android:textSize="19sp"
+            android:textFontWeight="500"></TextView>
+        <TextView
+            android:id="@+id/textViewTimeHistorySearch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hôm nay"
+            android:fontFamily="serif"
+            android:textSize="15sp"></TextView>
+    </LinearLayout>
+    <ImageButton
+        android:id="@+id/buttonDeleteHistorySearch"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="15dp"
+        android:layout_gravity="center_vertical"
+        android:padding="0dp"
+        android:background="@null"
+        android:src="@drawable/ic_baseline_close_30"
+        ></ImageButton>
+</LinearLayout>

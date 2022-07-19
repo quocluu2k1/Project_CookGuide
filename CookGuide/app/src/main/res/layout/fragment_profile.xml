@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/frame_461"
+        android:layout_width="match_parent"
+        android:layout_height="103dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="0dp"
+        android:background="@drawable/allbackground"
+        android:clipToOutline="true">
+
+        <FrameLayout
+            android:layout_width="70dp"
+            android:layout_height="47dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/logoutbackground">
+
+            <Button
+                android:id="@+id/btnLogout"
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:layout_marginLeft="21dp"
+                android:layout_marginTop="2dp"
+                android:background="@drawable/ic_log_out"
+                android:textAppearance="@style/ng_xu_t"></Button>
+
+            <TextView
+                android:id="@+id/ng_xu_t"
+                android:layout_width="58dp"
+                android:layout_height="14dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="31dp"
+                android:gravity="top"
+                android:text="Đăng Xuất"
+                android:textAppearance="@style/ng_xu_t" />
+
+        </FrameLayout>
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/imageButton"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            app:civ_border_color="@color/black"
+            app:civ_border_width="1dp"></de.hdodenhof.circleimageview.CircleImageView>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_toEndOf="@+id/imageButton"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/fullName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:text="Nguyễn Văn A"
+                android:textAppearance="@style/nguy_n_v_n_" />
+
+            <TextView
+                android:id="@+id/username"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:textAppearance="@style/nguy_n_van_" />
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tab_layout_userprofile"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="0dp"
+        android:paddingTop="0dp"
+        app:tabContentStart="0dp"
+        app:tabIndicatorColor="#2196F3"
+        app:tabMode="fixed"
+        app:tabPaddingStart="12dp"
+        app:tabPaddingTop="0dp"
+        app:tabSelectedTextColor="@color/black"
+        app:tabTextAppearance="@style/h_s_"
+        app:tabTextColor="#AAB2C8"
+        app:tabUnboundedRipple="false"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="103dp">
+
+    </com.google.android.material.tabs.TabLayout>
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/view_pager_userprofile"
+        android:layout_width="match_parent"
+        android:layout_height="473dp"
+        android:layout_alignParentBottom="true"
+        android:background="#FFFFFF">
+    </androidx.viewpager.widget.ViewPager>
+
+
+
+</LinearLayout>
